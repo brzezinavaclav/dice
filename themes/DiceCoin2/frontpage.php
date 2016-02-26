@@ -75,7 +75,7 @@
             </div>
 
             <div class="total-info">
-                
+                <div class="game-info">
 
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="manual">
