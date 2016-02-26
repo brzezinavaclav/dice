@@ -610,6 +610,7 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
 body {
   font-family: "lucida grande",Proxima,Tahoma,Arial;
   font-size: 14px;
+  font-weight: 300;
   line-height: 1.42857;
   color: #362f2d;
 }

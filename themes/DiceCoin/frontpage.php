@@ -25,27 +25,14 @@
   </div>
     <div id="content">
          <div class="wrap">
-          <div class="c_center">
-              <table width="100%">
-                <tr>
-                  <td valign="top" id="blikators" style="padding-top: 2px; width: 140px;">
                     <small><small><b>BALANCE</b></small></small><br>
                     <big><b><span class="balance"><?php echo sprintf("%.8f",$player['balance']); ?></span></b> <?php echo $settings['currency_sign']; ?></big>
-                  </td>
-                  <td valign="top" align="left">
+
                     <a class="balanceRefresh" href="#" onclick="javascript:refreshBalance();return false;"><img src="./themes/<?php echo $settings['activeTheme']; ?>/images/balance_refresh.png" style="position: relative; top: 8px; width: 24px; height: 26px;"></a>
-                  </td>
-                  <td valign="top" align="right">
+
                     <a class="balanceRegulators" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
                     <a class="balanceRegulators" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
-                  </td>
-                </tr>
-              </table>
-              <br>
-              <div id="c_centerSepDice"></div>
-              <div id="c_centerSep" class="c_centerSepL"></div>
-              <div id="c_centerSep" class="c_centerSepR"></div>
-              <br>
+
               <div style="float: left;">
                 <small><small><b>BET AMOUNT</b></small></small><br>
                 <input type="text" id="bt_wager" class="bt_input top3 wagerInput" value="0.00000000"><a href="#" onclick="javascript:clickdouble();return false;" class="bt_button double rightSep">2x</a><a href="#" onclick="javascript:clickmax();return false;" class="bt_button max">MAX</a>
@@ -69,7 +56,6 @@
                 </div>
               </div>
               <a href="#" onclick="javascript:place($('#bt_wager').val(),$('#betTb_multiplier').val(),false);return false;" id="betBtn" class="betBtn">ROLL DICE</a>
-          </div>
 
           <!-- BETTING BOT -- BASICLY INVISIBLE -->
           <div class="c_right">
