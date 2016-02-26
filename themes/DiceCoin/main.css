@@ -672,3 +672,35 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   letter-spacing: .05em;
   text-transform: uppercase;
 }
+.header .user-menu a {
+  display: block;
+  float: right;
+  vertical-align: top;
+  border-radius: 3px;
+  padding: 6px 14px;
+  font-size: 19px;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+.menu .dropdown {
+  display: inline-block;
+  position: relative;
+  float: right;
+  margin: 0 10px 0 5px;
+}
+.menu .dropdown .btn.btn-default {
+  outline: 0;
+  line-height: 100%;
+  text-align: center;
+  width: 100px;
+  letter-spacing: .05em;
+  color: #fff;
+  background-color: #122c2e;
+  border: 2px solid #000;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 19px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  position: relative;
+}
