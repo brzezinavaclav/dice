@@ -13,7 +13,7 @@
     <div class="menu-line">
       <div class="logo">
         <a href="<?php echo $settings['url']; ?>">
-          <img src="themes/DiceCoin/images/logo.png" alt="<?php echo $settings['title']; ?>" title="<?php echo $settings['title']; ?>">
+          <img src="" alt="<?php echo $settings['title']; ?>" title="<?php echo $settings['title']; ?>">
         </a>
       </div>
         <div class="menu">
