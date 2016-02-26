@@ -602,6 +602,9 @@ body {
   font-weight: 300;
   line-height: 1.42857;
   color: #362f2d;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 #container {
@@ -624,17 +627,11 @@ body {
   width: 50%;
   float: left;
   padding: 0px 15px;
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .col-12{
   width: 100%;
   float: left;
   padding: 0px 15px;
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .row:after{
   clear: both;
@@ -704,7 +701,6 @@ body {
   background: #e5a615;
   cursor: pointer;
   padding: .1em .1em .1em .1em;
-  margin: 0 10px;
   font-size: 2.6em;
   border-bottom: 3px solid #dd9c43;
   text-shadow: 0 0 2px #eebd7a;
