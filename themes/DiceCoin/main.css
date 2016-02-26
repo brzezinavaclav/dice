@@ -635,6 +635,11 @@ body {
   width: 100%;
   float: left;
 }
+.row:after{
+  clear: both;
+  content: "";
+  display: table;
+}
 .header {
   background: transparent url(images/header.png) no-repeat center;
   background-size: 100% auto;

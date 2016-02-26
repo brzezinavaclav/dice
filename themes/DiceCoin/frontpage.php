@@ -24,6 +24,7 @@
       </div>
   </div>
     <div id="content">
+      <div class="row">
       <div class="col-6">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce consectetuer risus a nunc. In rutrum. Phasellus rhoncus. Fusce wisi. Quisque tincidunt scelerisque libero. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Suspendisse nisl. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.</p>
 
@@ -47,7 +48,7 @@
         <p>Aliquam ornare wisi eu metus. Phasellus et lorem id felis nonummy placerat. Nulla pulvinar eleifend sem. Mauris dictum facilisis augue. Aenean fermentum risus id tortor. Fusce suscipit libero eget elit. Praesent dapibus. Duis pulvinar. Fusce wisi. Mauris metus. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nulla quis diam. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Etiam quis quam. Integer vulputate sem a nibh rutrum consequat. Suspendisse nisl. Nulla quis diam.</p>
           </div>
           <!--// BETTING BOT -- BASICLY INVISIBLE -->
-
+      </div>
 
            <div class="col-12">
              <a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">MY BETS</a>
