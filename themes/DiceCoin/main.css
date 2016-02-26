@@ -647,8 +647,16 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
 /*________________________________________________________________________*/
 
 #content {
-  width: 998px;
-  margin: 30px auto;
+  width: 968px;
+  margin: 30px auto 20px auto;
+  padding: 8px;
+  background-color: rgba(0,0,0,0.14);
+  -webkit-border-bottom-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 #all.menu-line {
   height: 60px;
