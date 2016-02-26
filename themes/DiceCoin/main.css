@@ -710,3 +710,6 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   border: 2px solid transparent;
   position: relative;
 }
+#content{
+  background-color: #fff;
+}

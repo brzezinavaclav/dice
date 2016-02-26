@@ -157,8 +157,11 @@
           <!--// BETTING BOT -- BASICLY INVISIBLE -->
 
         </div>
-    </div>    
+    </div>
 
+    </div>
+
+</div>
     <div id="all" class="downer">
         <a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">MY BETS</a>
         <a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">ALL BETS</a>
@@ -177,5 +180,3 @@
         &copy; <?php echo Date('Y').' '.$settings['title']; ?>. All rights reserved.
       </div>
     </div>
-    </div>
-</div>
