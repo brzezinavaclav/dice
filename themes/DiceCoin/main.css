@@ -693,3 +693,8 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   background-color: #fff;
   padding: 30px;
 }
+.footer{
+  color: #fff;
+  font-size: 16px;
+  margin: 15px auto 50px auto;
+}
