@@ -699,7 +699,7 @@ body {
   border: 2px solid transparent;
   position: relative;
 }
-#winning-alert{
+#winner-alert{
   background: #e5a615;
   cursor: pointer;
   padding: .1em .1em .1em .1em;
@@ -709,6 +709,31 @@ body {
   border-bottom: 3px solid #dd9c43;
   text-shadow: 0 0 2px #eebd7a;
   background: url("images/winner-bg.gif");
+}
+#winner-alert .winner-text {
+  color: #fdffc5;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 100;
+  padding: 0 0 0 1em;
+  color: #fdffc5;
+}
+#winner-alert .winner-amount {
+  display: inline-block;
+  padding: 0 .5em 0 0;
+  color: #fdffc5;
+  float: right;
+}
+#winner-alert .winner-player {
+  display: inline-block;
+  text-align: left;
+  line-height: 150%;
+  font-size: .3em;
+  text-transform: uppercase;
+  padding: 4px 20px 0 1.5em;
+  color: #fff;
+  float: right;
 }
 .footer{
   color: #fff;
