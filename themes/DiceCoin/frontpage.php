@@ -24,6 +24,32 @@
       </div>
   </div>
     <div id="content">
+      <div class="col-6">
+        <div style="float: left;">
+          <small><small><b>BET AMOUNT</b></small></small><br>
+          <input type="text" id="bt_wager" class="bt_input top3 wagerInput" value="0.00000000"><a href="#" onclick="javascript:clickdouble();return false;" class="bt_button double rightSep">2x</a><a href="#" onclick="javascript:clickmax();return false;" class="bt_button max">MAX</a>
+        </div>
+        <div style="float: right;">
+          <small><small><b>PROFIT ON WIN</b></small></small><br>
+          <input type="text" id="bt_profit" class="bt_input top3 wagerInput profitInput" value="0.00000000"><a href="#" onclick="javascript:maxProfit();return false;" class="bt_button max">MAX</a>
+        </div>
+        <div class="betTb">
+          <div id="under_over" class="betTbL" onclick="javascript:inverse();">
+            <span id="under_over_txt" class="under_over_txt">ROLL UNDER TO WIN</span><br>
+            <span id="under_over_num" class="under_over_num">49.50</span>
+          </div>
+          <div class="betTbC">
+            <small><small><b>MULTIPLIER</b></small></small><br>
+            <input type="text" id="betTb_multiplier" class="bt_input top3 betTb_input betTb_payoutL" value="2.00"><input type="text" id="betTb_multiplier_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_multiplier').focus();" value="x">
+          </div>
+          <div class="betTbR">
+            <small><small><b>WIN CHANCE</b></small></small><br>
+            <input type="text" id="betTb_chance" class="bt_input top3 betTb_input betTb_payoutL" value="49.50"><input type="text" id="betTb_chance_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_chance').focus();" value="%">
+          </div>
+        </div>
+        <a href="#" onclick="javascript:place($('#bt_wager').val(),$('#betTb_multiplier').val(),false);return false;" id="betBtn" class="betBtn">ROLL DICE</a>
+      </div>
+      <div class="col-6">
                     <small><small><b>BALANCE</b></small></small><br>
                     <big><b><span class="balance"><?php echo sprintf("%.8f",$player['balance']); ?></span></b> <?php echo $settings['currency_sign']; ?></big>
 
@@ -31,31 +57,7 @@
 
                     <a class="balanceRegulators" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
                     <a class="balanceRegulators" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
-
-              <div style="float: left;">
-                <small><small><b>BET AMOUNT</b></small></small><br>
-                <input type="text" id="bt_wager" class="bt_input top3 wagerInput" value="0.00000000"><a href="#" onclick="javascript:clickdouble();return false;" class="bt_button double rightSep">2x</a><a href="#" onclick="javascript:clickmax();return false;" class="bt_button max">MAX</a>
-              </div>
-              <div style="float: right;">
-                <small><small><b>PROFIT ON WIN</b></small></small><br>
-                <input type="text" id="bt_profit" class="bt_input top3 wagerInput profitInput" value="0.00000000"><a href="#" onclick="javascript:maxProfit();return false;" class="bt_button max">MAX</a>            
-              </div>
-              <div class="betTb">
-                <div id="under_over" class="betTbL" onclick="javascript:inverse();">
-                  <span id="under_over_txt" class="under_over_txt">ROLL UNDER TO WIN</span><br>
-                  <span id="under_over_num" class="under_over_num">49.50</span>
-                </div>
-                <div class="betTbC">
-                  <small><small><b>MULTIPLIER</b></small></small><br>
-                  <input type="text" id="betTb_multiplier" class="bt_input top3 betTb_input betTb_payoutL" value="2.00"><input type="text" id="betTb_multiplier_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_multiplier').focus();" value="x">
-                </div>
-                <div class="betTbR">
-                  <small><small><b>WIN CHANCE</b></small></small><br>
-                  <input type="text" id="betTb_chance" class="bt_input top3 betTb_input betTb_payoutL" value="49.50"><input type="text" id="betTb_chance_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_chance').focus();" value="%">
-                </div>
-              </div>
-              <a href="#" onclick="javascript:place($('#bt_wager').val(),$('#betTb_multiplier').val(),false);return false;" id="betBtn" class="betBtn">ROLL DICE</a>
-
+      </div>
           <!-- BETTING BOT -- BASICLY INVISIBLE -->
           <div class="c_right">
             <a id="bB_closer" href="#" onclick="javascript:robotLayoutOff();return false;"></a>

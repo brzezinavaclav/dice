@@ -627,6 +627,10 @@ body {
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
 }
+.col-6{
+  width: 50%;
+  float: left;
+}
 .header {
   background: transparent url(images/header.png) no-repeat center;
   background-size: 100% auto;
