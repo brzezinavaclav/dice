@@ -69,9 +69,11 @@
       </div>
       <div class="row">
            <div class="col-12">
-             <a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">MY BETS</a>
-             <a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">ALL BETS</a>
-             <a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">HIGH ROLLERS</a>
+             <ul class="nav nav-tabs" role="tablist">
+               <li role="presentation" class="active"><a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">MY BETS</a></li>
+               <li class="" role="presentation"><a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">ALL BETS</a></li>
+               <li class="" role="presentation"><a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">HIGH ROLLERS</a></li>
+             </ul>
            </div>
       </div>
     </div>
