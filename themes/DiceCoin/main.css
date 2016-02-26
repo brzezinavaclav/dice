@@ -825,4 +825,5 @@ html, body {
 .choise .mbet {
   font-size: 15px;
   padding: 17px 15px;
+  float: left;
 }

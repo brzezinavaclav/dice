@@ -43,14 +43,15 @@
             <div role="tabpanel" class="tab-pane fade in active" id="manual">
               <form action="#" id="manual_form">
                 <div class="play-block">
+                  <div class="row">
+                    <div class="col-6">
                   <input id="amount" class="input" name="amount" placeholder="Input Bet" required="" autofocus="" type="text">
-                  <div class="choise">
-                    <div class="block-content">
+                    </div>
+                  <div class="col-6">
                       <div class="mbet blue b2x" id="bet_2x">2x</div>
                       <div class="mbet blue" id="bet_min">Bet Min</div>
                       <div class="mbet blue" id="bet_max">Bet Max</div>
-                      <div class="clear"></div>
-                    </div>
+                  </div>
                   </div>
                   <div class="clear"></div>
                 </div>
