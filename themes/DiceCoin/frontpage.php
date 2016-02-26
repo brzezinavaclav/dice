@@ -23,6 +23,9 @@
         </div>
       </div>
   </div>
+    <div id="winning-alert">
+
+    </div>
     <div id="content">
       <div class="row">
       <div class="col-6">

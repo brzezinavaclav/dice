@@ -634,7 +634,7 @@ body {
 .col-6{
   width: 50%;
   float: left;
-  padding: 15px 0px;
+  padding: 0px 15px;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
@@ -642,7 +642,7 @@ body {
 .col-12{
   width: 100%;
   float: left;
-  padding: 15px 0px;
+  padding: 0px 15px;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
   box-sizing: border-box;         /* Opera/IE 8+ */
@@ -666,11 +666,9 @@ body {
 
 .menu{
   float: right;
-  font-size: 0;
   margin-top: 29px;
   text-align: left;
-  font-family: "Open Sans Condensed",sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: .05em;
   text-transform: uppercase;
 }
@@ -680,7 +678,7 @@ body {
   vertical-align: top;
   border-radius: 3px;
   padding: 6px 14px;
-  font-size: 19px;
+  font-size: 18px;
   text-decoration: none;
   border: 2px solid transparent;
   color: #fff;
@@ -711,6 +709,16 @@ body {
   text-decoration: none;
   border: 2px solid transparent;
   position: relative;
+}
+.winning-alert{
+  background: #e5a615;
+  cursor: pointer;
+  padding: .1em .1em .1em .1em;
+  margin: 0 10px;
+  font-size: 2.6em;
+  border-bottom: 3px solid #dd9c43;
+  text-shadow: 0 0 2px #eebd7a;
+  background: url("/images/winner-bg.gif");
 }
 .footer{
   color: #fff;
