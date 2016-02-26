@@ -735,6 +735,15 @@ body {
   color: #fff;
   float: right;
 }
+#winner-alert .winner-player span {
+  font-size: 1.2em;
+  display: block;
+}
+#winner-alert .winner-player span a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
 .footer{
   color: #fff;
   font-size: 16px;
