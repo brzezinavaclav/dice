@@ -58,23 +58,6 @@
               </form>
             </div>
 
-            <div role="tabpanel" class="tab-pane" id="automatic">
-              <form action="#" id="auto_form">
-                <div class="auto-play-block">
-                  <div class="row">
-                    <input id="start_bet" class="input" name="amount" placeholder="Start Bet" required="" autofocus="" type="text">
-                    <input id="loss_multiplier" class="input" name="amount" placeholder="Loss multiplier" required="" type="text">
-                    <input id="max_bet" class="input" name="amount" placeholder="Max bet" type="text">
-                  </div>
-                  <div class="row">
-                    <input id="num_bets" class="input" name="amount" placeholder="Number of bets" type="text">
-                    <input id="target_profit" class="input" name="amount" placeholder="Target profit" type="text">
-                    <input id="max_loss" class="input" name="amount" placeholder="Max loss" type="text">
-                  </div>
-                </div>
-                <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
-              </form>
-            </div>
           </div>
 
 
