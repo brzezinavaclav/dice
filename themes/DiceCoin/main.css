@@ -631,6 +631,10 @@ body {
   width: 50%;
   float: left;
 }
+.col-12{
+  width: 100%;
+  float: left;
+}
 .header {
   background: transparent url(images/header.png) no-repeat center;
   background-size: 100% auto;
