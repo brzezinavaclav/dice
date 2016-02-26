@@ -39,24 +39,6 @@ a:active {
 input:focus {
   outline: none;
 }
-.logo {
-  float: left;
-  line-height: 60px;
-  color: #4F556C;
-}
-.logo a {
-  text-decoration: none;
-  color: #4F556C;
-  padding: 10px 0;
-  padding-left: 60px;
-  background-image: url('images/logo.png');
-  background-repeat: no-repeat;
-  font-size: 18px;
-}
-.logo a:active {
-  position: relative;
-  top: 1px;
-}
 .menu {
   float: right;
   line-height: 60px;
