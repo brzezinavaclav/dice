@@ -35,6 +35,61 @@
     <div id="content">
       <div class="row">
         <div class="col-6">
+          <ul role="tablist" class="nav nav-tabs">
+            <li role="presentation" class="active"><a href="#manual" aria-controls="manual" role="tab" data-toggle="tab">Manual bet</a></li>
+            <li role="presentation"><a href="#automatic" aria-controls="automatic" role="tab" data-toggle="tab">Automatic bet</a></li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="manual">
+              <form action="#" id="manual_form">
+                <div class="play-block">
+                  <input id="amount" class="input" name="amount" placeholder="Input Bet" required="" autofocus="" type="text">
+                  <div class="choise">
+                    <div class="block-content">
+                      <div class="mbet blue b2x" id="bet_2x">2x</div>
+                      <div class="mbet blue" id="bet_min">Bet Min</div>
+                      <div class="mbet blue" id="bet_max">Bet Max</div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <button type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Bet placed', 1)">Roll Dice <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
+              </form>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="automatic">
+              <form action="#" id="auto_form">
+                <div class="auto-play-block">
+                  <div class="row">
+                    <input id="start_bet" class="input" name="amount" placeholder="Start Bet" required="" autofocus="" type="text">
+                    <input id="loss_multiplier" class="input" name="amount" placeholder="Loss multiplier" required="" type="text">
+                    <input id="max_bet" class="input" name="amount" placeholder="Max bet" type="text">
+                  </div>
+                  <div class="row">
+                    <input id="num_bets" class="input" name="amount" placeholder="Number of bets" type="text">
+                    <input id="target_profit" class="input" name="amount" placeholder="Target profit" type="text">
+                    <input id="max_loss" class="input" name="amount" placeholder="Max loss" type="text">
+                  </div>
+                </div>
+                <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
+              </form>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <div style="float: left;">
             <small><small><b>BET AMOUNT</b></small></small><br>
             <input type="text" id="bt_wager" class="bt_input top3 wagerInput" value="0.00000000"><a href="#" onclick="javascript:clickdouble();return false;" class="bt_button double rightSep">2x</a><a href="#" onclick="javascript:clickmax();return false;" class="bt_button max">MAX</a>
