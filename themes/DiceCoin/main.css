@@ -667,6 +667,7 @@ body {
 .menu{
   float: right;
   margin-top: 29px;
+  margin-right: 29px;
   text-align: left;
   font-weight: 500;
   letter-spacing: .05em;
