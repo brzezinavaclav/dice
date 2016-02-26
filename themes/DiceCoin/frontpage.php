@@ -67,7 +67,7 @@
             <a class="balanceRegulators" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-2">
            <div class="col-12">
              <ul class="nav nav-tabs" role="tablist">
                <li role="presentation" class="active"><a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">MY BETS</a></li>
