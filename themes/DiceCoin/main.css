@@ -617,9 +617,6 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
 .bB_label {
   background-image: url('images/bB_checkbox.png');
 }
-.betTb_increase {
-  width:
-}
 .top5 {
   position: relative;
   top: 5px;
