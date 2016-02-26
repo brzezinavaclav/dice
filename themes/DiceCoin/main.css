@@ -760,6 +760,7 @@ body {
 }
 .nav-tabs {
   border-bottom: 1px solid #ddd;
+  float: left;
 }
 .nav-tabs > li {
   float: left;
