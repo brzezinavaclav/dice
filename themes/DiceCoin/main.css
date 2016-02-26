@@ -672,7 +672,7 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   letter-spacing: .05em;
   text-transform: uppercase;
 }
-.header .user-menu a {
+.menu a {
   display: block;
   float: right;
   vertical-align: top;
