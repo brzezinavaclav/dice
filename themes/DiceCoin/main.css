@@ -655,7 +655,7 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   border-bottom-left-radius: 6px;
 }
 .header {
-  background: transparent url(images/header.png) no-repeat center;
+  background: transparent url(images/header.bmp) no-repeat center;
   background-size: 100% auto;
   height: 89px;
 }
