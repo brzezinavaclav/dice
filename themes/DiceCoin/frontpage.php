@@ -19,7 +19,6 @@
       </div>
   </div>
     <div id="content">
-    <div id="all" class="c">
          <div class="wrap">
           <div class="c_center">
               <table width="100%">
@@ -156,7 +155,6 @@
           <!--// BETTING BOT -- BASICLY INVISIBLE -->
 
         </div>
-    </div>
 
     </div>
 
