@@ -700,7 +700,7 @@ body {
   border: 2px solid transparent;
   position: relative;
 }
-.winning-alert{
+#winning-alert{
   background: #e5a615;
   cursor: pointer;
   padding: .1em .1em .1em .1em;
