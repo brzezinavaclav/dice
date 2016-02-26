@@ -11,6 +11,11 @@
 <div id="container">
   <div class="header">
     <div class="menu-line">
+      <div class="logo">
+        <a href="<?php echo $settings['url']; ?>">
+          <img src="images/logo.png" alt="<?php echo $settings['title']; ?>" title="<?php echo $settings['title']; ?>">
+        </a>
+      </div>
         <div class="menu">
           <?php if ($settings['inv_enable']==1) { ?><a href="#" onclick="javascript:return invest();">INVEST</a><?php } ?>                         
           <a href="#" onclick="javascript:return fair();">FAIR?</a>                         
