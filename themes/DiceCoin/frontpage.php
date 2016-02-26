@@ -155,7 +155,7 @@
           <!--// BETTING BOT -- BASICLY INVISIBLE -->
 
 
-           <div id="all" class="downer">
+           <div id="all">
              <a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">MY BETS</a>
              <a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">ALL BETS</a>
              <a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">HIGH ROLLERS</a>
