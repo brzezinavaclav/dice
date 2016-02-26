@@ -25,19 +25,8 @@ a {
 a:hover {
   color: #4F556C;
 }
-a:active {
-  position: relative;
-  top: 1px;
-}
 input:focus {
   outline: none;
-}
-.menu {
-  float: right;
-  line-height: 60px;
-}
-.menu a {
-  padding: 0 10px;
 }
 input.l {
 	width: 410px;
