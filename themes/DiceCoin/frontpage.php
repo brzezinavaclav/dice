@@ -35,27 +35,39 @@
     <div id="content">
       <div class="row">
       <div class="col-6">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce consectetuer risus a nunc. In rutrum. Phasellus rhoncus. Fusce wisi. Quisque tincidunt scelerisque libero. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Suspendisse nisl. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.</p>
-
-        <p>Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nullam eget nisl. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Fusce consectetuer risus a nunc. Nulla pulvinar eleifend sem. Integer imperdiet lectus quis justo. Pellentesque ipsum. Maecenas libero. Aenean placerat. Maecenas libero. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nulla non arcu lacinia neque faucibus fringilla. Maecenas libero. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Aenean vel massa quis mauris vehicula lacinia. Duis viverra diam non justo. Aliquam erat volutpat.</p>
-
-        <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Maecenas sollicitudin. Etiam egestas wisi a erat. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Pellentesque arcu. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Donec iaculis gravida nulla. Phasellus faucibus molestie nisl. Etiam posuere lacus quis dolor. Nam sed tellus id magna elementum tincidunt. Aliquam ornare wisi eu metus. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Etiam neque. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim.</p>
-
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ac dolor sit amet purus malesuada congue. Etiam neque. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Proin in tellus sit amet nibh dignissim sagittis. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Duis viverra diam non justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla non lectus sed nisl molestie malesuada. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Proin mattis lacinia justo. Aliquam in lorem sit amet leo accumsan lacinia. Integer lacinia. Phasellus rhoncus. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Aliquam erat volutpat. Pellentesque arcu.</p>
-
-        <p>Aliquam ornare wisi eu metus. Phasellus et lorem id felis nonummy placerat. Nulla pulvinar eleifend sem. Mauris dictum facilisis augue. Aenean fermentum risus id tortor. Fusce suscipit libero eget elit. Praesent dapibus. Duis pulvinar. Fusce wisi. Mauris metus. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nulla quis diam. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Etiam quis quam. Integer vulputate sem a nibh rutrum consequat. Suspendisse nisl. Nulla quis diam.</p>
+        <div style="float: left;">
+          <small><small><b>BET AMOUNT</b></small></small><br>
+          <input type="text" id="bt_wager" class="bt_input top3 wagerInput" value="0.00000000"><a href="#" onclick="javascript:clickdouble();return false;" class="bt_button double rightSep">2x</a><a href="#" onclick="javascript:clickmax();return false;" class="bt_button max">MAX</a>
         </div>
-      <div class="col-6">
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce consectetuer risus a nunc. In rutrum. Phasellus rhoncus. Fusce wisi. Quisque tincidunt scelerisque libero. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Suspendisse nisl. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.</p>
-
-        <p>Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Nullam eget nisl. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Fusce consectetuer risus a nunc. Nulla pulvinar eleifend sem. Integer imperdiet lectus quis justo. Pellentesque ipsum. Maecenas libero. Aenean placerat. Maecenas libero. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nulla non arcu lacinia neque faucibus fringilla. Maecenas libero. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Aenean vel massa quis mauris vehicula lacinia. Duis viverra diam non justo. Aliquam erat volutpat.</p>
-
-        <p>Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Maecenas sollicitudin. Etiam egestas wisi a erat. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Pellentesque arcu. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Donec iaculis gravida nulla. Phasellus faucibus molestie nisl. Etiam posuere lacus quis dolor. Nam sed tellus id magna elementum tincidunt. Aliquam ornare wisi eu metus. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor. Etiam neque. Nullam sapien sem, ornare ac, nonummy non, lobortis a enim.</p>
-
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ac dolor sit amet purus malesuada congue. Etiam neque. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Proin in tellus sit amet nibh dignissim sagittis. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Duis viverra diam non justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla non lectus sed nisl molestie malesuada. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Proin mattis lacinia justo. Aliquam in lorem sit amet leo accumsan lacinia. Integer lacinia. Phasellus rhoncus. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Aliquam erat volutpat. Pellentesque arcu.</p>
-
-        <p>Aliquam ornare wisi eu metus. Phasellus et lorem id felis nonummy placerat. Nulla pulvinar eleifend sem. Mauris dictum facilisis augue. Aenean fermentum risus id tortor. Fusce suscipit libero eget elit. Praesent dapibus. Duis pulvinar. Fusce wisi. Mauris metus. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Nulla quis diam. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Etiam quis quam. Integer vulputate sem a nibh rutrum consequat. Suspendisse nisl. Nulla quis diam.</p>
+        <div style="float: right;">
+          <small><small><b>PROFIT ON WIN</b></small></small><br>
+          <input type="text" id="bt_profit" class="bt_input top3 wagerInput profitInput" value="0.00000000"><a href="#" onclick="javascript:maxProfit();return false;" class="bt_button max">MAX</a>
+        </div>
+        <div class="betTb">
+          <div id="under_over" class="betTbL" onclick="javascript:inverse();">
+            <span id="under_over_txt" class="under_over_txt">ROLL UNDER TO WIN</span><br>
+            <span id="under_over_num" class="under_over_num">49.50</span>
           </div>
+          <div class="betTbC">
+            <small><small><b>MULTIPLIER</b></small></small><br>
+            <input type="text" id="betTb_multiplier" class="bt_input top3 betTb_input betTb_payoutL" value="2.00"><input type="text" id="betTb_multiplier_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_multiplier').focus();" value="x">
+          </div>
+          <div class="betTbR">
+            <small><small><b>WIN CHANCE</b></small></small><br>
+            <input type="text" id="betTb_chance" class="bt_input top3 betTb_input betTb_payoutL" value="49.50"><input type="text" id="betTb_chance_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_chance').focus();" value="%">
+          </div>
+        </div>
+        <a href="#" onclick="javascript:place($('#bt_wager').val(),$('#betTb_multiplier').val(),false);return false;" id="betBtn" class="betBtn">ROLL DICE</a>
+      </div>
+      <div class="col-6">
+          <small><small><b>BALANCE</b></small></small><br>
+          <big><b><span class="balance"><?php echo sprintf("%.8f",$player['balance']); ?></span></b> <?php echo $settings['currency_sign']; ?></big>
+
+          <a class="balanceRefresh" href="#" onclick="javascript:refreshBalance();return false;"><img src="./themes/<?php echo $settings['activeTheme']; ?>/images/balance_refresh.png" style="position: relative; top: 8px; width: 24px; height: 26px;"></a>
+
+          <a class="balanceRegulators" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
+          <a class="balanceRegulators" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
+      </div>
           <!--// BETTING BOT -- BASICLY INVISIBLE -->
       </div>
 
