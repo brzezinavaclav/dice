@@ -711,6 +711,7 @@ html, body {
   border-bottom: 3px solid #dd9c43;
   text-shadow: 0 0 2px #eebd7a;
   background: url("images/winner-bg.gif");
+  background-size: 100%;
 }
 #winner-alert .winner-text {
   color: #fdffc5;
