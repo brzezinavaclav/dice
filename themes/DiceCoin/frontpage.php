@@ -9,7 +9,7 @@
 
 ?>
 <div id="content">
-    <div id="all" class="menu-line">
+    <div class="menu-line">
         <div class="logo"><a href="./"><?php echo $settings['title']; ?></a></div>
         <div class="menu">
           <?php if ($settings['inv_enable']==1) { ?><a href="#" onclick="javascript:return invest();">INVEST</a><?php } ?>                         

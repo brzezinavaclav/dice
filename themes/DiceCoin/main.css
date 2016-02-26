@@ -39,10 +39,6 @@ a:active {
 input:focus {
   outline: none;
 }
-#all {
-  width: 100%;
-  text-align: center;
-}
 .logo {
   float: left;
   line-height: 60px;
@@ -658,7 +654,7 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
 }
-#all.menu-line {
+.menu-line {
   height: 60px;
   background-color: white;
   -webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.82);
