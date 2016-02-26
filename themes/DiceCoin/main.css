@@ -682,6 +682,7 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   text-decoration: none;
   border: 2px solid transparent;
   color: #fff;
+  line-height: 19px;
 }
 .menu a:hover {
   border: 2px solid #fff;
