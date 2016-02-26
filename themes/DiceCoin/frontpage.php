@@ -28,9 +28,9 @@
       <div class="winner-amount">
         <i class="symbol-btc"></i><span>0.197</span>
       </div>
-    </div>
-    <div class="winner-player">Player
-      <span><a href="#">Ajewad</a> won</span>
+      <div class="winner-player">Player
+        <span><a href="#">Ajewad</a> won</span>
+      </div>
     </div>
     <div id="content">
       <div class="row">
