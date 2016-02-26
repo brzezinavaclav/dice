@@ -18,7 +18,6 @@
         </div>
       </div>
   </div>
-    <div id="all" class="menu-line-draw"></div>
     <div id="content">
     <div id="all" class="c">
          <div class="wrap">

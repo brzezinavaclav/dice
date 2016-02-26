@@ -712,4 +712,5 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
 }
 #content{
   background-color: #fff;
+  padding: 30px;
 }
