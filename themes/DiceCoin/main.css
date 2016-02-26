@@ -142,17 +142,6 @@ a.microbuttons:hover {
   font-size: 14px;
   padding-bottom: 10px;
 }
-#all.footer {
-  height: 37px;
-  line-height: 37px;
-  background-color: #464A5E;
-  font-family: "Open Sans",sans-serif;
-  font-size: 14px;
-  color: white; 
-}
-#content.footer {
-  text-align: center;
-}
 .news_single {
   padding: 14px;
   border-color: rgba(0, 0, 0, 0.2);
