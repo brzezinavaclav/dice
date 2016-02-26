@@ -681,6 +681,11 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   font-size: 19px;
   text-decoration: none;
   border: 2px solid transparent;
+  color: #fff;
+}
+.menu a:hover {
+  border: 2px solid #fff;
+  border-radius: 4px;
 }
 .menu .dropdown {
   display: inline-block;
