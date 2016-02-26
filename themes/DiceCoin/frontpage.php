@@ -24,6 +24,7 @@
       </div>
   </div>
     <div id="content">
+      <div class="row">
       <div class="col-6">
         <div style="float: left;">
           <small><small><b>BET AMOUNT</b></small></small><br>
@@ -144,6 +145,7 @@
             </div>          
             <a href="#" onclick="javascript:startAutomat();return false;" id="botBtn" class="betBtn">START AUTOMATIC BETTING</a>
           </div>
+      </div>
           <!--// BETTING BOT -- BASICLY INVISIBLE -->
 
 
