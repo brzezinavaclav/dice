@@ -24,7 +24,6 @@
       </div>
   </div>
     <div id="content">
-         <div class="wrap">
                     <small><small><b>BALANCE</b></small></small><br>
                     <big><b><span class="balance"><?php echo sprintf("%.8f",$player['balance']); ?></span></b> <?php echo $settings['currency_sign']; ?></big>
 
@@ -162,7 +161,6 @@
            <div id="all" class="stats">
            </div>
 
-        </div>
 
     </div>
 
