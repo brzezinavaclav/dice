@@ -9,14 +9,15 @@
 
 ?>
 <div id="content">
+  <div class="header">
     <div class="menu-line">
-        <div class="logo"><a href="./"><?php echo $settings['title']; ?></a></div>
         <div class="menu">
           <?php if ($settings['inv_enable']==1) { ?><a href="#" onclick="javascript:return invest();">INVEST</a><?php } ?>                         
           <a href="#" onclick="javascript:return fair();">FAIR?</a>                         
           <a href="#" onclick="javascript:return account();">ACCOUNT</a>
         </div>
       </div>
+  </div>
     <div id="all" class="menu-line-draw"></div>    
     <div id="all" class="c">
          <div class="wrap">
