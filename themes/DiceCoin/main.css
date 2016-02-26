@@ -595,7 +595,7 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
 
 
 /*________________________________________________________________________*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import url(https://fonts.googleapis.com/css?family=Lora:700);
 body {
   font-family: "lucida grande",Proxima,Tahoma,Arial;
