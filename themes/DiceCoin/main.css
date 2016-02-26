@@ -595,8 +595,18 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
 
 
 /*________________________________________________________________________*/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-@import url(https://fonts.googleapis.com/css?family=Lora:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/OpenSans-CondLight.ttf) format('truetype');
+}
+@font-face {
+  font-family: "lucida grande",Proxima,Tahoma,Arial;
+  font-style: normal;
+  src: url(fonts/LucidaGrandeRegular.ttf) format('truetype');
+}
 body {
   font-family: "lucida grande",Proxima,Tahoma,Arial;
   font-size: 14px;
