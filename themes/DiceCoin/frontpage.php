@@ -8,7 +8,7 @@
 
 
 ?>
-<div id="content">
+<div id="container">
   <div class="header">
     <div class="menu-line">
         <div class="menu">
@@ -18,7 +18,8 @@
         </div>
       </div>
   </div>
-    <div id="all" class="menu-line-draw"></div>    
+    <div id="all" class="menu-line-draw"></div>
+    <div id="content">
     <div id="all" class="c">
          <div class="wrap">
           <div class="c_center">
@@ -175,5 +176,6 @@
       <div class="footer">
         &copy; <?php echo Date('Y').' '.$settings['title']; ?>. All rights reserved.
       </div>
+    </div>
     </div>
 </div>

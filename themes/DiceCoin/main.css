@@ -642,7 +642,7 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
 
 /*________________________________________________________________________*/
 
-#content {
+#container {
   width: 968px;
   margin: 30px auto 20px auto;
   padding: 8px;
