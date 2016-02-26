@@ -8,7 +8,7 @@
 
 
 ?>
-<div id="content" class="centers">
+<div id="content">
     <div id="all" class="menu-line">
         <div class="logo"><a href="./"><?php echo $settings['title']; ?></a></div>
         <div class="menu">
