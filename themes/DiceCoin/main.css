@@ -697,4 +697,5 @@ input[type=checkbox].bB_checkbox:checked + label.bB_label {
   color: #fff;
   font-size: 16px;
   margin: 15px auto 50px auto;
+  width: 968px;
 }
