@@ -53,8 +53,9 @@ div.msgBoxContent
 div.msgBoxContent .dp_addr{
     text-align: center;
     color: #c7254e;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 300;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 div.msgBoxContent p
 {
