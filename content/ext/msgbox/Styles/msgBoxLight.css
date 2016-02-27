@@ -65,7 +65,9 @@ div.msgBoxContent input[type="text"]{
     outline: 0;
     border-radius: 3px;
     background-color: #fff;
-    padding: .4em .4em;
+    padding: .6em .4em;
+    width: 397px;
+    margin: 7px 0;
 }
 div.msgBoxContent .dp_addr{
     text-align: center;
