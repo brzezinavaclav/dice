@@ -12,7 +12,7 @@ function msg (options) {
         type: "alert",
         autoClose: false,
         timeOut: 0,
-        showButtons: true,
+        showButtons: false,
         buttons: [{ value: "Ok"}],
         inputs: [{ type: "text", name:"userName", header: "User Name" }, { type: "password",name:"password", header: "Password"}],
         success: function (result) { },
