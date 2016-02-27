@@ -119,7 +119,7 @@
 
         </div>
 
-        <div class="data" id="tabs" role="tabpanel">
+        <div class="data" id="bets" role="tabpanel">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="tab active"><a href="#recent_bets" aria-controls="recent_bets" role="tab" data-toggle="tab">Recent bets</a></li>
                 <li role="presentation" class="tab"><a href="#my_bets" aria-controls="my_bets" role="tab" data-toggle="tab">My bets</a></li>
@@ -194,10 +194,13 @@
                         </table>
                     </div>
                     <div id="result" class="results">
-                        <table>
-                            <tbody><tr><td class="first color status">WIN</td><td class="fourth"><a href="/verify/bet/7A08P1q">1.1x</a></td><td class="fifth">382 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.009999</td><td class="color seventh"><i class="symbol-btc"></i>0.0009999</td></tr>
-                            </tbody>
-                        </table>
+                        <div style="" class="default-row win">
+                            <table>
+                                <tbody>
+                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="/verify/bet/3aRmG11">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -304,7 +307,7 @@
 
     })();
     var myTabs = tabs({
-        el: '#tabs',
+        el: '#bets',
         tabNavigationLinks: '.tab',
         tabContentContainers: '.tab-pane'
     });
