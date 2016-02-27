@@ -119,7 +119,7 @@
 
         </div>
 
-        <div class="data" id="tabs" role="tabpanel">
+        <div class="data" id="tabss" role="tabpanel">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="tab active"><a href="#recent_bets" aria-controls="recent_bets" role="tab" data-toggle="tab">Recent bets</a></li>
                 <li role="presentation" class="tab"><a href="#my_bets" aria-controls="my_bets" role="tab" data-toggle="tab">My bets</a></li>
@@ -211,7 +211,7 @@
         </div>
     </div>
 <div class="footer">
-    <div class="copyright">Copyright ©2013—2016 Dicecoin.</div>
+    <div class="copyright">&copy; <?php echo Date('Y').' '.$settings['title']; ?>. All rights reserved.</div>
     <div class="links">
         <a href="https://dicecoin.io/user/login">Login</a>
         <a href="mailto:contact@dicecoin.io">Contact</a>
@@ -307,7 +307,7 @@
 
     })();
     var myTabs = tabs({
-        el: '#tabs',
+        el: '#tabss',
         tabNavigationLinks: '.tab',
         tabContentContainers: '.tab-pane'
     });
