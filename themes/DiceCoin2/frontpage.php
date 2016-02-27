@@ -138,6 +138,24 @@
                         <div class="player-table">
                             <div class="row">
                                 <div class="col-xs-4">
+                                    <div class="label">Login:</div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <span class="blue"><a href="https://dicecoin.io/user/stats/JjVn9l" id="login">Iyudawivi</a></span>
+                                    <a href="#" id="change_login" title="Change login"><i class="glyphicon glyphicon-pencil"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="label">Password:</div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <span id="password">PapeFHdwl7knx8</span>
+                                    <a href="#" id="reset_password" title="Reset password"><i class="glyphicon glyphicon-refresh"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4">
                                     <div class="label">Bets:</div>
                                 </div>
                                 <div class="col-xs-8">
