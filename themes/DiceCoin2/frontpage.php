@@ -278,8 +278,8 @@
             var goToTab = function(index) {
                 if (index !== activeIndex && index >= 0 && index <= tabNavigationLinks.length) {
                     alert(tabNavigationLinks[activeIndex].classList);
-                    tabNavigationLinks[activeIndex].classList.remove('active in');
-                    tabNavigationLinks[index].classList.add('active in');
+                    tabNavigationLinks[activeIndex].classList.remove('active');
+                    tabNavigationLinks[index].classList.add('active');
                     tabContentContainers[activeIndex].classList.remove('active in');
                     tabContentContainers[index].classList.add('active in');
                     activeIndex = index;
