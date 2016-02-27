@@ -5,9 +5,6 @@ html, body {
 .header .user-menu{
     margin-right: 29px;
 }
-.total-info .player-info .player-table {
-    height: 55px;
-}
 .mbet:hover a, .mbet:focus a{
     color: #fff;
 }

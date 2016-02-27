@@ -151,7 +151,7 @@
                                 </div>
                                 <div class="col-xs-8">
                                     <span id="password">PapeFHdwl7knx8</span>
-                                    <a href="#" id="reset_password" title="Reset password"><i class="glyphicon glyphicon-refresh"></i></a>
+                                    <a href="#" id="reset_password" title="Reset password"><i class="fa fa-refresh"></i></a>
                                 </div>
                             </div>
                             <div class="row">
