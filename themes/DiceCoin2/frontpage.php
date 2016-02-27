@@ -180,6 +180,13 @@
                                 </tbody>
                             </table>
                         </div>
+                        <div style="" class="default-row win">
+                            <table>
+                                <tbody>
+                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="/verify/bet/3aRmG11">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                     </div>
                 </div>
