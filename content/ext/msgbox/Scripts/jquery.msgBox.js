@@ -223,7 +223,7 @@ function msg (options) {
     divMsgBoxBackGround.click(function (e) {
         hide();
     });
-    document.querySelector('#msgClose').click(function (e) {
+    $('#msgClose').click(function (e) {
         hide();
     });
     _hideCurrent=function() {
