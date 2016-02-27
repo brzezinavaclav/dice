@@ -123,8 +123,8 @@
                 </div>
 
                 <div class="buttons-group player-group">
-                    <a class="balanceRegulators" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
-                    <a class="balanceRegulators" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
+                    <a class="button deposit deposit-block" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
+                    <a class="button withdraw withdraw-block" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
                 </div>
             </div>
 
