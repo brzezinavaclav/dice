@@ -188,7 +188,6 @@
                             </table>
                         </div>
                     </div>
-                    </div>
                 </div>
                 <div id="my_bets" role="tabpanel" class="tab-pane fade">
                     <div class="default-row headingrow">
@@ -213,6 +212,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 <div class="footer">
