@@ -36,16 +36,15 @@
             </div>
         </div>
         <div class="content main adaptive-block">
+
             <div class="main-ui-row">
                 <ul role="tablist" class="nav nav-tabs">
                     <li role="presentation" class="active"><a href="#manual" aria-controls="manual" role="tab" data-toggle="tab">Manual bet</a></li>
                     <li class="" role="presentation"><a href="#automatic" aria-controls="automatic" role="tab" data-toggle="tab">Automatic bet</a></li>
                 </ul>
             </div>
-
             <div class="total-info">
                 <div class="game-info">
-
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="manual">
                             <form action="#" id="manual_form">
@@ -120,10 +119,10 @@
 
         </div>
 
-        <div class="data" role="tabpanel">
+        <div class="data" id="tabs" role="tabpanel">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#recent_bets" aria-controls="recent_bets" role="tab" data-toggle="tab">Recent bets</a></li>
-                <li class="" role="presentation"><a href="#my_bets" aria-controls="my_bets" role="tab" data-toggle="tab">My bets</a></li>
+                <li role="presentation" class="tab active"><a href="#recent_bets" aria-controls="recent_bets" role="tab" data-toggle="tab">Recent bets</a></li>
+                <li class="" role="presentation" class="tab"><a href="#my_bets" aria-controls="my_bets" role="tab" data-toggle="tab">My bets</a></li>
             </ul>
 
             <div class="tabs tab-content">
@@ -203,6 +202,9 @@
                 </div>
             </div>
         </div>
+
+
+
         </div>
     </div>
 <div class="footer">
@@ -217,7 +219,92 @@
     <div class="clear"></div>
 </div>
 <script>
-    $('.tab-pane').click(function(e){
-        this.removeClass("active in")
+    (function() {
+
+        'use strict';
+
+        /**
+         * tabs
+         *
+         * @description The Tabs component.
+         * @param {Object} options The options hash
+         */
+        var tabs = function(options) {
+
+            var el = document.querySelector(options.el);
+            var tabNavigationLinks = el.querySelectorAll(options.tabNavigationLinks);
+            var tabContentContainers = el.querySelectorAll(options.tabContentContainers);
+            var activeIndex = 0;
+            var initCalled = false;
+
+            /**
+             * init
+             *
+             * @description Initializes the component by removing the no-js class from
+             *   the component, and attaching event listeners to each of the nav items.
+             *   Returns nothing.
+             */
+            var init = function() {
+                if (!initCalled) {
+                    initCalled = true;
+                    for (var i = 0; i < tabNavigationLinks.length; i++) {
+                        var link = tabNavigationLinks[i];
+                        handleClick(link, i);
+                    }
+                }
+            };
+
+            /**
+             * handleClick
+             *
+             * @description Handles click event listeners on each of the links in the
+             *   tab navigation. Returns nothing.
+             * @param {HTMLElement} link The link to listen for events on
+             * @param {Number} index The index of that link
+             */
+            var handleClick = function(link, index) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    goToTab(index);
+                });
+            };
+
+            /**
+             * goToTab
+             *
+             * @description Goes to a specific tab based on index. Returns nothing.
+             * @param {Number} index The index of the tab to go to
+             */
+            var goToTab = function(index) {
+                if (index !== activeIndex && index >= 0 && index <= tabNavigationLinks.length) {
+                    tabNavigationLinks[activeIndex].classList.remove('active in');
+                    tabNavigationLinks[index].classList.add('active in');
+                    tabContentContainers[activeIndex].classList.remove('active in');
+                    tabContentContainers[index].classList.add('active in');
+                    activeIndex = index;
+                }
+            };
+
+            /**
+             * Returns init and goToTab
+             */
+            return {
+                init: init,
+                goToTab: goToTab
+            };
+
+        };
+
+        /**
+         * Attach to global namespace
+         */
+        window.tabs = tabs;
+
+    })();
+    var myTabs = tabs({
+        el: '#tabs',
+        tabNavigationLinks: '.tab',
+        tabContentContainers: '.tab-pane'
     });
+    myTabs.init();
 </script>
