@@ -1,10 +1,10 @@
 div.msgBox
 {
-    padding: 2em 2em 3em 2em;
+    padding: 3em 2em;
     position: fixed;
     z-index: 1000;
     font-family:Verdana;
-    width: 580px;
+    width: 800px;
     /*min-height:160px;      */
     color: #000;
     -moz-border-radius: 6px;
@@ -18,9 +18,11 @@ div.msgBox .msgClose{
     position: absolute;
     right: 0px;
     font-size: 1.5em;
-    padding: 5px;
+    padding: 15px;
     color: #fff;
     background: rgb(51,185,137);
+    margin: 0;
+    top: 0;
 }
 div.msgBoxBackGround
 {
