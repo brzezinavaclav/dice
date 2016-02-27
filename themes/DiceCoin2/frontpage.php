@@ -66,7 +66,7 @@
                                         </tr>
                                         </tbody>
                                     </table>
-                                    <div class="drop-icon fa fa-angle-down"></div>
+                                    <div class="drop-icon"></div>
                                 </div>
                                 <div class="variants">
                                     <div class="block-content">
