@@ -96,6 +96,14 @@
                     <div class="player-table">
                         <div class="row">
                             <div class="col-xs-4">
+                                <div class="label">Bets:</div>
+                            </div>
+                            <div class="col-xs-8">
+                                <span id="bets">0</span> - <span class="green" id="wins">0</span> / <span class="red" id="loses">0</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4">
                                 <div class="label">Your balance:</div>
                             </div>
                             <div class="col-xs-8">
