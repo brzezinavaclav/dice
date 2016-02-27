@@ -1,6 +1,6 @@
 div.msgBox
 {
-    padding: 3em 2em;
+    padding: 3em;
     position: fixed;
     z-index: 1000;
     font-family:Verdana;
