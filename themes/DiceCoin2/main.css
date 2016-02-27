@@ -5,10 +5,7 @@ html, body {
 .header .user-menu{
     margin-right: 29px;
 }
-.mbet:hover a, .mbet:focus a{
-    color: #fff;
-}
-a.bt_button:hover, a.bt_button:focus{
+.mbet:hover a, a.bt_button:hover{
     text-decoration: none;
     color: #fff;
 }
