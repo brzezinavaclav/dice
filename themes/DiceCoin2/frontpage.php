@@ -218,7 +218,6 @@
 </div>
 <script>
     $('.tab-pane').click(function(e){
-        e.preventDefault();
-        alert();
+        this.removeClass("active in")
     });
 </script>
