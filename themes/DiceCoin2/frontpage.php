@@ -217,7 +217,8 @@
     <div class="clear"></div>
 </div>
 <script>
-    $('.tab-pane').click(function(){
+    $('.tab-pane').click(function(e){
+        e.preventDefault();
         alert();
     });
 </script>
