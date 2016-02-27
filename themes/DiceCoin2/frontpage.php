@@ -28,16 +28,6 @@
                 </a>
             </div>
             <div class="user-menu">
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="true">
-                        <span id="symbol">BTC</span>
-                        <span class="glyphicon glyphicon-chevron-down"></span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://dicecoin.io/index/symbol/LTC">LTC</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="https://dicecoin.io/index/symbol/DOGE">DOGE</a></li>
-                    </ul>
-                </div>
                 <?php if ($settings['inv_enable']==1) { ?><a href="#" onclick="javascript:return invest();">INVEST</a><?php } ?>
                 <a href="#" onclick="javascript:return fair();">FAIR?</a>
                 <a href="#" onclick="javascript:return account();">ACCOUNT</a>
