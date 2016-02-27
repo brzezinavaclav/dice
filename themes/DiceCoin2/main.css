@@ -17,6 +17,6 @@ a.bt_button:hover, a.bt_button:focus, a.bt_button:active{
 }
 .fa{
     position: relative;
-    top: -2px;
+    top: -1px;
     margin-right: 3px;
 }

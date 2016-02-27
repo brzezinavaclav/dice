@@ -47,6 +47,57 @@
                     <div class="game-info">
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="manual">
+                                <div class="select info-block">
+                                    <div class="block-content value">
+                                        <table>
+                                            <thead>
+                                            <tr>
+                                                <td>Game</td>
+                                                <td class="second">Chance</td>
+                                                <td class="third">Payout</td>
+                                                <td>Max bet</td>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr data-threshold="5000" data-min-bet="100" data-max-bet="530000000">
+                                                <td>&lt;5,000</td>
+                                                <td class="second">50<span class="mini">%</span></td>
+                                                <td class="third">1.98<span class="mini">x</span></td>
+                                                <td>5.3</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="drop-icon"></div>
+                                    </div>
+                                    <div class="variants">
+                                        <div class="block-content">
+                                            <div class="variant">
+                                                <table>
+                                                    <tbody>
+                                                    <tr data-threshold="10" data-min-bet="100" data-max-bet="525000">
+                                                        <td>&lt;10</td>
+                                                        <td class="second">0.1<span class="mini">%</span></td>
+                                                        <td class="third">990<span class="mini">x</span></td>
+                                                        <td>0.00525</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="variant">
+                                                <table>
+                                                    <tbody>
+                                                    <tr data-threshold="100" data-min-bet="100" data-max-bet="5300000">
+                                                        <td>&lt;100</td>
+                                                        <td class="second">1<span class="mini">%</span></td>
+                                                        <td class="third">99<span class="mini">x</span></td>
+                                                        <td>0.053</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <form action="#" id="manual_form">
                                     <div class="play-block">
                                         <input  id="bt_wager" class="input"  placeholder="Input Bet" required="" autofocus="" type="text"  value="0.00000000">
