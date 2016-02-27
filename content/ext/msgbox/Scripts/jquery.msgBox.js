@@ -100,7 +100,7 @@ function msg (options) {
     });
 
     var divBackGround = "<div id=" + divMsgBoxBackGroundId + " class=\"msgBoxBackGround\"></div>";
-    var divTitle = "<input class='fa fa-close msgClose' type='button' name='Close' /> <div class=\"msgBoxTitle\">" + options.title + "</div>";
+    var divTitle = "<a id='msgClose' class='fa fa-close msgClose'></a> <div class=\"msgBoxTitle\">" + options.title + "</div>";
     var divContainer = "<div class=\"msgBoxContainer\"><div id=" + divMsgBoxContentId + " class=\"msgBoxContent\"><p><span>" + options.content + "</span></p></div></div>";
     var divButtons = "<div id=" + divMsgBoxButtonsId + " class=\"msgBoxButtons\">" + buttons + "</div>";
     var divInputs = "<div class=\"msgBoxInputs\">" + inputs + "</div>";
@@ -221,6 +221,9 @@ function msg (options) {
     });
 
     divMsgBoxBackGround.click(function (e) {
+        hide();
+    });
+    document.querySelector('#msgClose').click(function (e) {
         hide();
     });
     _hideCurrent=function() {
