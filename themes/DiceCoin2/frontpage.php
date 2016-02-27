@@ -1,9 +1,3 @@
-<html><head>
-    <title>Bitcoin Dice Game — Dicecoin.io</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Provably fair dice — play instantly with Bitcoins. 1% House Edge. No registration required. Bitcoin faucet — earn free Bitcoins.">
-
     <link href="//fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -15,9 +9,7 @@
     <link rel="icon" href="https://dicecoin.io/images/favicon.ico" type="image/x-icon" />
     <![endif]-->
 
-    <link rel="stylesheet" href="themes/DiceCoin2/dicecoin.min.css">
 
-</head>
 <body>
 <div class="wrapper">
     <div class="mainCanteiner">
@@ -224,5 +216,3 @@
     </div>
     <div class="clear"></div>
 </div>
-</body>
-</html>
