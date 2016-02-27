@@ -8,7 +8,7 @@ html, body {
 .mbet:hover a, .mbet:focus a{
     color: #fff;
 }
-a.bt_button:hover, a.bt_button:focus, a.bt_button:active{
+a.bt_button:hover, a.bt_button:focus{
     text-decoration: none;
     color: #fff;
 }
