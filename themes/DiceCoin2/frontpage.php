@@ -29,10 +29,10 @@
         <div class="winner-alert">
             <div class="winner-text">We Have New Winner!</div>
             <div class="winner-amount">
-                <i class="symbol-btc"></i><span>0.197</span>
+                <i class="fa fa-btc"></i><span>0.197</span>
             </div>
             <div class="winner-player">Player
-                <span><a href="https://dicecoin.io/user/stats/L8mnxw" onclick="ga('send', 'event', 'Profile', 'click', 'Who is the winner?', 1)">Ajewad</a> won</span>
+                <span><a href="#">Ajewad</a> won</span>
             </div>
         </div>
         <div class="content main adaptive-block">
