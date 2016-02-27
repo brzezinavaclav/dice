@@ -175,7 +175,7 @@
                                 <div class="label">Pending balance:</div>
                             </div>
                             <div class="col-xs-8">
-                                <i class="symbol-btc"></i><strong id="unconfirmed_balance">0</strong>
+                                <i class="fa fa-btc"></i><strong id="unconfirmed_balance">0</strong>
                             </div>
                         </div>
                     </div>
@@ -213,35 +213,35 @@
                     <div id="livebets" class="results">
                         <div style="" class="default-row win">
                             <table>
-                                <tbody><tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">382 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.009999</td><td class="color seventh"><i class="symbol-btc"></i>0.0009999</td></tr>
+                                <tbody><tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">382 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.009999</td><td class="color seventh"><i class="fa fa-btc"></i>0.0009999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row win">
                             <table>
                                 <tbody>
-                                    <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">1&nbsp;628 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.009999</td><td class="color seventh"><i class="symbol-btc"></i>0.0009999</td></tr>
+                                    <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">1&nbsp;628 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.009999</td><td class="color seventh"><i class="fa fa-btc"></i>0.0009999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row lose">
                             <table>
                                 <tbody>
-                                    <tr><td class="first color status">LOSE</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">9&nbsp;975 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.0009999</td><td class="color seventh"><i class="symbol-btc"></i>-0.0009999</td></tr>
+                                    <tr><td class="first color status">LOSE</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">9&nbsp;975 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.0009999</td><td class="color seventh"><i class="fa fa-btc"></i>-0.0009999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row win">
                             <table>
                                 <tbody>
-                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
+                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.00009999</td><td class="color seventh"><i class="fa fa-btc"></i>0.00000999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row win">
                             <table>
                                 <tbody>
-                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
+                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.00009999</td><td class="color seventh"><i class="fa fa-btc"></i>0.00000999</td></tr>
                                 </tbody>
                             </table>
                         </div>
@@ -266,7 +266,7 @@
                         <div style="" class="default-row win">
                             <table>
                                 <tbody>
-                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
+                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.00009999</td><td class="color seventh"><i class="fa fa-btc"></i>0.00000999</td></tr>
                                 </tbody>
                             </table>
                         </div>
