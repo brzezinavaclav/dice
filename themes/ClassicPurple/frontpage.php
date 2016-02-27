@@ -11,11 +11,7 @@
 
     <div id="all" class="menu-line">
       <div id="content">
-        <div class="logo">
-          <a href="<?php echo $settings['url']; ?>">
-            <img src="themes/DiceCoin/images/logo.png" alt="<?php echo $settings['title']; ?>" title="<?php echo $settings['title']; ?>">
-          </a>
-        </div>
+        <div class="logo"><a href="./"><?php echo $settings['title']; ?></a></div>
         <div class="menu">
           <?php if ($settings['inv_enable']==1) { ?><a href="#" onclick="javascript:return invest();">INVEST</a><?php } ?>                         
           <a href="#" onclick="javascript:return fair();">FAIR?</a>                         

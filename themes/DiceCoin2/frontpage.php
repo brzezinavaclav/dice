@@ -15,8 +15,8 @@
     <div class="mainCanteiner">
         <div class="header adaptive-block">
             <div class="logo">
-                <a href="https://dicecoin.io/">
-                    <img src="themes/DiceCoin2/images/logo.png" alt="Dicecoin" title="Dicecoin">
+                <a href="<?php echo $settings['url']; ?>">
+                    <img src="themes/DiceCoin2/images/logo.png" alt="<?php echo $settings['title']; ?>" title="<?php echo $settings['title']; ?>">
                 </a>
             </div>
             <div class="user-menu">
@@ -265,7 +265,6 @@
             var handleClick = function(link, index) {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
-                    alert();
                     goToTab(index);
                 });
             };
@@ -278,6 +277,7 @@
              */
             var goToTab = function(index) {
                 if (index !== activeIndex && index >= 0 && index <= tabNavigationLinks.length) {
+                    alert(tabNavigationLinks[activeIndex].classList);
                     tabNavigationLinks[activeIndex].classList.remove('active in');
                     tabNavigationLinks[index].classList.add('active in');
                     tabContentContainers[activeIndex].classList.remove('active in');
