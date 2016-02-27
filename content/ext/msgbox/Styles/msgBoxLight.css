@@ -51,17 +51,21 @@ div.msgBoxTitle
     line-height: 1.5em;
     font-size: 1.5em;
 }
-div.msgBoxImage img
-{
-    height:75px;
-    width:75px;
-}
 div.msgBoxContent
 {
     font-size:11pt;
     margin:0 3px 6px 3px;
     display:inline-block;
     float:left;
+    width: 100%;
+}
+div.msgBoxContent input[type="text"]{
+    font-size: 21px;
+    border: 2px solid #e7e7e7;
+    outline: 0;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: .4em .4em;
 }
 div.msgBoxContent .dp_addr{
     text-align: center;
