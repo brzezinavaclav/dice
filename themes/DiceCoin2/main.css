@@ -8,3 +8,7 @@ html, body {
 .total-info .player-info .player-table {
     height: 55px;
 }
+a.bt_button:hover, a.bt_button:focus, a.bt_button:active{
+    text-decoration: none;
+    color: #fff;
+}
