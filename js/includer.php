@@ -363,7 +363,7 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
       withdrawing=false;
       $.msgBox({
         title:"How much do you want to withdraw?",
-        content:"<div id=\"_withdraw_content\"><p>0 BTC available on your balance.</p><input id=\"w_valid_ltc\" type='text' class='l' placeholder='Address'><div><input id=\"w_amount\" type='text' class='l' style='width: 100px; text-align: center;' placeholder='Amount'></div><p>Min. value: <b><?php echo $settings['min_withdrawal']; ?></b> <?php echo $settings['currency_sign']; ?><p></div>",
+        content:"<div id=\"_withdraw_content\"><p>0 BTC available on your balance.</p><input id=\"w_valid_ltc\" type='text' class='l' placeholder='Address'><div><input id=\"w_amount\" type='text' class='l'  placeholder='Amount'></div><p>Min. value: <b><?php echo $settings['min_withdrawal']; ?></b> <?php echo $settings['currency_sign']; ?><p></div>",
         type:"info",
         opacity:0.8,
         buttons: [{ value: "Withdraw" }],
