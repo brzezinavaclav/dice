@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="col-xs-8">
                                     <span class="blue"><a href="#" id="login">Player_1</a></span>
-                                    <a href="#"  onclick="javascript:return account();" id="change_login" title="Change login"><i class="fa fa-pencil"></i></a>
+                                    <a href="#" onclick="javascript:return account();" id="change_login" title="Change login"><i class="fa fa-pencil"></i></a>
                                 </div>
                             </div>
                             <div class="row">
