@@ -36,87 +36,87 @@
             </div>
         </div>
         <div class="content main adaptive-block">
+            <div id="tab_bet">
+                <div class="main-ui-row">
+                    <ul role="tablist" class="nav nav-tabs">
+                        <li role="presentation" class="tab active"><a href="#manual" aria-controls="manual" role="tab" data-toggle="tab">Manual bet</a></li>
+                        <li role="presentation" class="tab"><a href="#automatic" aria-controls="automatic" role="tab" data-toggle="tab">Automatic bet</a></li>
+                    </ul>
+                </div>
+                <div class="total-info">
+                    <div class="game-info">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="manual">
+                                <form action="#" id="manual_form">
+                                    <div class="play-block">
+                                        <input  id="bt_wager" class="input"  placeholder="Input Bet" required="" autofocus="" type="text"  value="0.00000000">
+                                        <div class="choise">
+                                            <div class="block-content">
+                                                <div class="mbet blue b2x"><a href="#" onclick="javascript:clickdouble();return false;" class="bt_button double rightSep">2x</a></div>
+                                                <div class="mbet blue" id="bet_max"><a href="#" onclick="javascript:maxProfit();return false;" class="bt_button max">Bet Max</a></div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <button type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Bet placed', 1)">Roll Dice <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
+                                </form>
+                            </div>
 
-            <div class="main-ui-row">
-                <ul role="tablist" class="nav nav-tabs">
-                    <li role="presentation" class="active"><a href="#manual" aria-controls="manual" role="tab" data-toggle="tab">Manual bet</a></li>
-                    <li class="" role="presentation"><a href="#automatic" aria-controls="automatic" role="tab" data-toggle="tab">Automatic bet</a></li>
-                </ul>
-            </div>
-            <div class="total-info">
-                <div class="game-info">
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="manual">
-                            <form action="#" id="manual_form">
-                                <div class="play-block">
-                                    <input  id="bt_wager" class="input"  placeholder="Input Bet" required="" autofocus="" type="text"  value="0.00000000">
-                                    <div class="choise">
-                                        <div class="block-content">
-                                            <div class="mbet blue b2x"><a href="#" onclick="javascript:clickdouble();return false;" class="bt_button double rightSep">2x</a></div>
-                                            <div class="mbet blue" id="bet_max"><a href="#" onclick="javascript:maxProfit();return false;" class="bt_button max">Bet Max</a></div>
-                                            <div class="clear"></div>
+                            <div role="tabpanel" class="tab-pane" id="automatic">
+                                <form action="#" id="auto_form">
+                                    <div class="auto-play-block">
+                                        <div class="row">
+                                            <input id="start_bet" class="input" name="amount" placeholder="Start Bet" required="" autofocus="" type="text">
+                                            <input id="loss_multiplier" class="input" name="amount" placeholder="Loss multiplier" required="" type="text">
+                                            <input id="max_bet" class="input" name="amount" placeholder="Max bet" type="text">
+                                        </div>
+                                        <div class="row">
+                                            <input id="num_bets" class="input" name="amount" placeholder="Number of bets" type="text">
+                                            <input id="target_profit" class="input" name="amount" placeholder="Target profit" type="text">
+                                            <input id="max_loss" class="input" name="amount" placeholder="Max loss" type="text">
                                         </div>
                                     </div>
-                                    <div class="clear"></div>
-                                </div>
-                                <button type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Bet placed', 1)">Roll Dice <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
-                            </form>
-                        </div>
-
-                        <div role="tabpanel" class="tab-pane" id="automatic">
-                            <form action="#" id="auto_form">
-                                <div class="auto-play-block">
-                                    <div class="row">
-                                        <input id="start_bet" class="input" name="amount" placeholder="Start Bet" required="" autofocus="" type="text">
-                                        <input id="loss_multiplier" class="input" name="amount" placeholder="Loss multiplier" required="" type="text">
-                                        <input id="max_bet" class="input" name="amount" placeholder="Max bet" type="text">
-                                    </div>
-                                    <div class="row">
-                                        <input id="num_bets" class="input" name="amount" placeholder="Number of bets" type="text">
-                                        <input id="target_profit" class="input" name="amount" placeholder="Target profit" type="text">
-                                        <input id="max_loss" class="input" name="amount" placeholder="Max loss" type="text">
-                                    </div>
-                                </div>
-                                <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
-                            </form>
+                                    <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="player-info">
-                    <div class="player-table">
-                        <div class="row">
+                    <div class="player-info">
+                        <div class="player-table">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="label">Bets:</div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <span id="bets">0</span> - <span class="green" id="wins">0</span> / <span class="red" id="loses">0</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <div class="label">Your balance:</div>
+                                </div>
+                                <div class="col-xs-8">
+                                    <i class="symbol-btc"></i><strong id="balance" data-balance="">0</strong>
+                                </div>
+                            </div>
+                            <div data-original-title="Awaiting 1 confirmation(s)" id="pending_balance" class="row unconfirmed" title="" data-toggle="tooltip" data-placement="top" style="display:none" "="">
                             <div class="col-xs-4">
-                                <div class="label">Bets:</div>
+                                <div class="label">Pending balance:</div>
                             </div>
                             <div class="col-xs-8">
-                                <span id="bets">0</span> - <span class="green" id="wins">0</span> / <span class="red" id="loses">0</span>
+                                <i class="symbol-btc"></i><strong id="unconfirmed_balance">0</strong>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-4">
-                                <div class="label">Your balance:</div>
-                            </div>
-                            <div class="col-xs-8">
-                                <i class="symbol-btc"></i><strong id="balance" data-balance="">0</strong>
-                            </div>
-                        </div>
-                        <div data-original-title="Awaiting 1 confirmation(s)" id="pending_balance" class="row unconfirmed" title="" data-toggle="tooltip" data-placement="top" style="display:none" "="">
-                        <div class="col-xs-4">
-                            <div class="label">Pending balance:</div>
-                        </div>
-                        <div class="col-xs-8">
-                            <i class="symbol-btc"></i><strong id="unconfirmed_balance">0</strong>
                         </div>
                     </div>
-                </div>
 
-                <div class="buttons-group player-group">
-                    <a class="button deposit deposit-block" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
-                    <a class="button withdraw withdraw-block" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
+                    <div class="buttons-group player-group">
+                        <a class="button deposit deposit-block" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
+                        <a class="button withdraw withdraw-block" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
+                    </div>
                 </div>
             </div>
-
         </div>
 
         <div class="data" id="tab_bets" role="tabpanel">
@@ -306,10 +306,17 @@
         window.tabs = tabs;
 
     })();
-    var myTabs = tabs({
+    var tabBet = tabs({
+        el: '#tab_bet',
+        tabNavigationLinks: '.tab',
+        tabContentContainers: '.tab-pane'
+    });
+    tabBet.init();
+
+    var tabBets = tabs({
         el: '#tab_bets',
         tabNavigationLinks: '.tab',
         tabContentContainers: '.tab-pane'
     });
-    myTabs.init();
+    tabBets.init();
 </script>
