@@ -98,7 +98,6 @@
                                 </div>
                             </div>
                             <div role="tabpanel" class="tab-pane active" id="manual">
-                                <form action="#" id="manual_form">
                                     <div class="play-block">
                                         <input  id="bt_wager" class="input"  placeholder="Input Bet" required="" autofocus="" type="text"  value="0.00000000">
                                         <div class="choise">
@@ -110,8 +109,7 @@
                                         </div>
                                         <div class="clear"></div>
                                     </div>
-                                    <button type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Bet placed', 1)">Roll Dice <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
-                                </form>
+                                <a href="#" onclick="javascript:place($('#bt_wager').val(),$('#betTb_multiplier').val(),false);return false;" id="betBtn" class="button roll-dice">ROLL DICE</a>
                             </div>
 
                             <div role="tabpanel" class="tab-pane" id="automatic">
