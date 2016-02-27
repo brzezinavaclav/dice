@@ -15,7 +15,7 @@
     <link rel="icon" href="https://dicecoin.io/images/favicon.ico" type="image/x-icon" />
     <![endif]-->
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="dicecoin.min.css">
 
 </head>
 <body>
