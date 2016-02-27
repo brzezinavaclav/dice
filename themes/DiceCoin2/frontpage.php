@@ -15,7 +15,7 @@
     <link rel="icon" href="https://dicecoin.io/images/favicon.ico" type="image/x-icon" />
     <![endif]-->
 
-    <link rel="stylesheet" href="themes/DiceCoin/dicecoin.min.css">
+    <link rel="stylesheet" href="themes/DiceCoin2/dicecoin.min.css">
 
 </head>
 <body>
@@ -24,7 +24,7 @@
         <div class="header adaptive-block">
             <div class="logo">
                 <a href="https://dicecoin.io/">
-                    <img src="themes/DiceCoin/images/logo.png" alt="Dicecoin" title="Dicecoin">
+                    <img src="themes/DiceCoin2/images/logo.png" alt="Dicecoin" title="Dicecoin">
                 </a>
             </div>
             <div class="user-menu">
