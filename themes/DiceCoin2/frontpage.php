@@ -98,7 +98,7 @@
                                     <div class="label">Your balance:</div>
                                 </div>
                                 <div class="col-xs-8">
-                                    <i class="symbol-btc"></i><strong id="balance" data-balance="">0</strong>
+                                    <i class="fa fa-btc"></i><strong id="balance" data-balance="">0</strong>
                                 </div>
                             </div>
                             <div data-original-title="Awaiting 1 confirmation(s)" id="pending_balance" class="row unconfirmed" title="" data-toggle="tooltip" data-placement="top" style="display:none" "="">
@@ -144,35 +144,35 @@
                     <div id="livebets" class="results">
                         <div style="" class="default-row win">
                             <table>
-                                <tbody><tr><td class="first color status">WIN</td><td class="fourth"><a href="/verify/bet/7A08P1q">1.1x</a></td><td class="fifth">382 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.009999</td><td class="color seventh"><i class="symbol-btc"></i>0.0009999</td></tr>
+                                <tbody><tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">382 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.009999</td><td class="color seventh"><i class="symbol-btc"></i>0.0009999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row win">
                             <table>
                                 <tbody>
-                                    <tr><td class="first color status">WIN</td><td class="fourth"><a href="/verify/bet/qlaYk6V">1.1x</a></td><td class="fifth">1&nbsp;628 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.009999</td><td class="color seventh"><i class="symbol-btc"></i>0.0009999</td></tr>
+                                    <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">1&nbsp;628 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.009999</td><td class="color seventh"><i class="symbol-btc"></i>0.0009999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row lose">
                             <table>
                                 <tbody>
-                                    <tr><td class="first color status">LOSE</td><td class="fourth"><a href="/verify/bet/0e2j0oV">1.1x</a></td><td class="fifth">9&nbsp;975 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.0009999</td><td class="color seventh"><i class="symbol-btc"></i>-0.0009999</td></tr>
+                                    <tr><td class="first color status">LOSE</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">9&nbsp;975 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.0009999</td><td class="color seventh"><i class="symbol-btc"></i>-0.0009999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row win">
                             <table>
                                 <tbody>
-                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="/verify/bet/3aRmG11">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
+                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
                                 </tbody>
                             </table>
                         </div>
                         <div style="" class="default-row win">
                             <table>
                                 <tbody>
-                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="/verify/bet/3aRmG11">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
+                                <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="symbol-btc"></i>0.00009999</td><td class="color seventh"><i class="symbol-btc"></i>0.00000999</td></tr>
                                 </tbody>
                             </table>
                         </div>

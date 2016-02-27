@@ -15,3 +15,8 @@ a.bt_button:hover, a.bt_button:focus, a.bt_button:active{
     text-decoration: none;
     color: #fff;
 }
+.fa{
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+}
