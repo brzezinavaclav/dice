@@ -250,7 +250,6 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         content:"<div id=\"_pending_content\"></div>",
         type:"info",
         opacity:0.8,
-        buttons: [{ value: "Close" }],
         afterShow:"loadPending()"
       });      
       return false;
@@ -261,7 +260,6 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         content:"<div id=\"_dp_addr\" class='dp_addr' style=\"height: 30px;\"></div><div id=\"fqrcode\" style=\"margin-top:5px;margin-left: auto;margin-right: auto;width:256px;height:256px;\"></div><br><small><small><a class=\"microbuttons\" href=\"#\" onclick=\"javascript:generateNewAddress();return false;\">Generate new address</a> <a href=\"#\" onclick=\"javascript:generateNewAddress();return false;\"><img src=\"content/images/refresh.png\" style=\"width: 10px; height: 10px;\"></a> | <a class=\"microbuttons\" href=\"#\" onclick=\"javascript:return viewPending();\">Show pending deposits</a> <a href=\"#\" onclick=\"javascript:return viewPending();\"><img src=\"content/images/pending.png\" style=\"width: 10px; height: 10px;\"></a></small></small><br><br><small><small><i><b>Warning:</b> This address is just for a single use. If you want to deposit multiple times, you should generate new address!</i></small></small>",
         type:"info",
         opacity:0.8,
-        buttons: [{ value: "Close" }],        
         afterShow:"generateNewAddress()"
       });
       return false;
@@ -272,7 +270,6 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         content:"<div class=\"invCon\"></div>",
         type:"info",
         opacity:0.8,
-        buttons: [{ value: "Close" }],        
         afterShow:"RefreshInvCon()"
       });
       return false;
@@ -325,7 +322,6 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         content:"<div id='faircon'><br><img src=\"content/images/ajax_loader.gif\"><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>",
         type:"info",
         opacity:0.8,
-        buttons: [{ value: "Close" }],        
         afterShow:"reloadFaircon()"
       });
       return false;    
@@ -336,7 +332,6 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         content:"<br><small>Player Alias:</small><br><b><span id='alias_sp' style='display: inline;'><?php echo $player['alias']; ?></span></b><br><button onclick=\"javascript:_changeAlias(prompt('New alias:'));return false;\" style=\"padding: 4px;\">Change</button><br><br><small>Password:</small><br><span id='passwd_sp'><?php if ($player['password']!='') echo '<b>Yes</b><br><button onclick=\"javascript:passwd_protect();return false;\" style=\"padding: 4px;\">Change Password</button> <button onclick=\"javascript:passwd_unprotect();return false;\" style=\"padding: 4px;\">Remove Password</button>'; else echo '<b>No</b><br><button onclick=\"javascript:passwd_protect();return false;\" style=\"padding: 4px;\">Set Password</button>'; ?></span><br><small>Unique URL:</small><br><input class=\"l\" type=\"text\" style=\"width:100%;cursor:pointer;cursor:hand;\" onclick=\"$(this).select();\" value=\"http://<?php echo $settings['url']; ?>?unique=<?php echo $unique; ?>\"><br>",
         type:"info",
         opacity:0.8,
-        buttons: [{ value: "Close" }],
       });
       return false;    
     }

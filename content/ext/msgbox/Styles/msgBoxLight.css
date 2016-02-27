@@ -23,6 +23,10 @@ div.msgBox .msgClose{
     background: rgb(51,185,137);
     margin: 0;
     top: 0;
+    cursor: pointer;
+}
+div.msgBox .msgClose:hover, div.msgBox .msgClose:focus{
+    text-decoration: none;
 }
 div.msgBoxBackGround
 {
