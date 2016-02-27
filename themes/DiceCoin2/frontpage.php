@@ -279,7 +279,8 @@
                 if (index !== activeIndex && index >= 0 && index <= tabNavigationLinks.length) {
                     tabNavigationLinks[activeIndex].classList.remove('active');
                     tabNavigationLinks[index].classList.add('active');
-                    tabContentContainers[activeIndex].classList.remove('active').remove('in');
+                    tabContentContainers[activeIndex].classList.remove('active');
+                    tabContentContainers[activeIndex].classList.remove('in');
                     tabContentContainers[index].classList.add('active');
                     tabContentContainers[index].classList.add('in');
                     activeIndex = index;
