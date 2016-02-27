@@ -141,8 +141,8 @@
                                     <div class="label">Login:</div>
                                 </div>
                                 <div class="col-xs-8">
-                                    <span class="blue"><a href="https://dicecoin.io/user/stats/JjVn9l" id="login">Iyudawivi</a></span>
-                                    <a href="#" id="change_login" title="Change login"><i class="glyphicon glyphicon-pencil"></i></a>
+                                    <span class="blue"><a href="#" id="login">Iyudawivi</a></span>
+                                    <a href="#" id="change_login" title="Change login"><i class="fa fa-pencil"></i></a>
                                 </div>
                             </div>
                             <div class="row">
