@@ -100,7 +100,7 @@ function msg (options) {
     });
 
     var divBackGround = "<div id=" + divMsgBoxBackGroundId + " class=\"msgBoxBackGround\"></div>";
-    var divTitle = "<div id='msgBox1456587845594Buttons'><a class='fa fa-close msgClose' type='button' value='Close'></a></div> <div class=\"msgBoxTitle\">" + options.title + "</div>";
+    var divTitle = "<a class='fa fa-close msgClose' type='button' name='Close'></a> <div class=\"msgBoxTitle\">" + options.title + "</div>";
     var divContainer = "<div class=\"msgBoxContainer\"><div id=" + divMsgBoxContentId + " class=\"msgBoxContent\"><p><span>" + options.content + "</span></p></div></div>";
     var divButtons = "<div id=" + divMsgBoxButtonsId + " class=\"msgBoxButtons\">" + buttons + "</div>";
     var divInputs = "<div class=\"msgBoxInputs\">" + inputs + "</div>";
