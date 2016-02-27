@@ -1,12 +1,12 @@
 div.msgBox
 {
-    padding: 4px 10px 4px 10px;
+    padding: 2em 2em 3em 2em;
     position: fixed;
     z-index: 1000;
     font-family:Verdana;
     width: 580px;
     /*min-height:160px;      */
-    color: #00335e;
+    color: #000;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
@@ -31,19 +31,11 @@ div.msgBoxTitle
 {
     padding:5px 0 5px 0;
     font-variant:small-caps;
-    font-size:16pt;
     font-weight:lighter;
     color:#000;
     width:100%;
-    border-bottom : 1px solid #002c5f;
-}
-div.msgBoxImage
-{
-    margin:20px 5px 0 5px;
-    display:inline-block;
-    float:left;
-    height:75px;
-    width:75px;
+    line-height: 1.5em;
+    font-size: 1.5em;
 }
 div.msgBoxImage img
 {
