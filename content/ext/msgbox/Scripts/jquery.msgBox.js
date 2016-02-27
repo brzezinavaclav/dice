@@ -13,7 +13,7 @@ function msg (options) {
         autoClose: false,
         timeOut: 0,
         showButtons: true,
-        buttons: [{ }],
+        buttons: [],
         inputs: [{ type: "text", name:"userName", header: "User Name" }, { type: "password",name:"password", header: "Password"}],
         success: function (result) { },
         beforeShow: function () { },
