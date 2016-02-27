@@ -15,7 +15,7 @@
     <div class="mainCanteiner">
         <div class="header adaptive-block">
             <div class="logo">
-                <a href="<?php echo $settings['url']; ?>">
+                <a href="http://<?php echo $settings['url']; ?>">
                     <img src="themes/DiceCoin2/images/logo.png" alt="<?php echo $settings['title']; ?>" title="<?php echo $settings['title']; ?>">
                 </a>
             </div>
