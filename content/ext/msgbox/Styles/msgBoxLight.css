@@ -49,13 +49,12 @@ div.msgBoxContent
     margin:0 3px 6px 3px;
     display:inline-block;
     float:left;
-    /*height:90px;    */
-    width:419px;
 }
 div.msgBoxContent .dp_addr{
     text-align: center;
     color: #c7254e;
-    font-size: 1.3em;
+    font-size: 1em;
+    font-weight: 300;
 }
 div.msgBoxContent p
 {
