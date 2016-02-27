@@ -119,7 +119,7 @@
 
         </div>
 
-        <div class="data" id="bets" role="tabpanel">
+        <div class="data" id="tabs" role="tabpanel">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="tab active"><a href="#recent_bets" aria-controls="recent_bets" role="tab" data-toggle="tab">Recent bets</a></li>
                 <li role="presentation" class="tab"><a href="#my_bets" aria-controls="my_bets" role="tab" data-toggle="tab">My bets</a></li>
@@ -307,7 +307,7 @@
 
     })();
     var myTabs = tabs({
-        el: '#bets',
+        el: '#tabs',
         tabNavigationLinks: '.tab',
         tabContentContainers: '.tab-pane'
     });
