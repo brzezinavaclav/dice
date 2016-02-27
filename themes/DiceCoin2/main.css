@@ -8,6 +8,9 @@ html, body {
 .total-info .player-info .player-table {
     height: 55px;
 }
+.choise .mbet:hover, .choise .mbet:focus{
+    color: #fff;
+}
 a.bt_button:hover, a.bt_button:focus, a.bt_button:active{
     text-decoration: none;
     color: #fff;
