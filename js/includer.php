@@ -362,8 +362,8 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
     function withdraw() {
       withdrawing=false;
       $.msgBox({
-        title:"Withdraw Funds",
-        content:"<div id=\"_withdraw_content\"><br><small>Enter valid <?php echo $settings['currency_sign']; ?> address:</small><br><input id=\"w_valid_ltc\" type='text' class='l' style='width: 100%;'><br><br><small>Enter amount to be paid-out:</small><br><input id=\"w_amount\" type='text' class='l' style='width: 100px; text-align: center;'><br><br><small><small>Min. value: <b><?php echo $settings['min_withdrawal']; ?></b> <?php echo $settings['currency_sign']; ?></small></small></div>",
+        title:"How much do you want to withdraw?",
+        content:"<div id=\"_withdraw_content\"><p>0 BTC available on your balance.</p><input id=\"w_valid_ltc\" type='text' class='l' style='width: 100%;' placeholder='Address'><input id=\"w_amount\" type='text' class='l' style='width: 100px; text-align: center;' placeholder='Amount'><br><br><small><small>Min. value: <b><?php echo $settings['min_withdrawal']; ?></b> <?php echo $settings['currency_sign']; ?></small></small></div>",
         type:"info",
         opacity:0.8,
         buttons: [{ value: "Withdraw" }, { value: "Cancel" }],
