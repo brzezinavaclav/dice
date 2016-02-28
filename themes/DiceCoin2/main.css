@@ -31,7 +31,7 @@ div.msgBoxImage{
     display: none;
 }
 .block-content table input[type="text"]{
-    width: 100%;
+    width: 90px;
 }
 .select tr td:first-child {
     width: 33%;
@@ -49,7 +49,7 @@ div.msgBoxImage{
 }
 .input_addon{
     position: absolute;
-    right: 15px;
+    right: 20px;
     top: 18px;
     font-weight: 300;
 }
