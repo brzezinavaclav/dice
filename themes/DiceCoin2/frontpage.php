@@ -107,7 +107,7 @@
                                                 <input class="input" type="text" id="bB_loss_increase_by" value="0.00" style="margin-top: 10px;">
                                             </div>
                                             </div>
-                                            <div style="width: 145px; float: left;">
+                                            <div style="width: 140px; float: left;">
                                             <div>
                                                 <input class="input" id="bB_win_return" type="checkbox" checked="checked">
                                                 <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
