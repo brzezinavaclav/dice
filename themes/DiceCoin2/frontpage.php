@@ -131,7 +131,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
+                                    <a href="#" onclick="javascript:startAutomat();return false;" id="botBtn" class="betBtn">Start</a>
                                 </form>
                             </div>
                         </div>
