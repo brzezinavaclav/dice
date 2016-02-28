@@ -93,6 +93,7 @@
                             </div>
                         </div>
                     </div>
+                        </div>
 
                     <div class="player-info">
                         <div class="player-table">
