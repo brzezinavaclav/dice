@@ -73,3 +73,9 @@ label{
 .total-info .player-info .player-table {
     height: 150px;
 }
+a.fa{
+    cursor: pointer;
+}
+a.fa:hover, a.fa:focus{
+    text-decoration: none;
+}
