@@ -93,12 +93,12 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
     var under_over=0;
     function inverse() {
       if (under_over==0) {
-        $("#under_over_txt").html('ROLL OVER TO WIN');
+        $("#under_over_txt").html('Roll over');
         under_over=1;
         recountUnderOver();
       }
       else {
-        $("#under_over_txt").html('ROLL UNDER TO WIN');
+        $("#under_over_txt").html('Roll under');
         under_over=0;
         recountUnderOver();
       }
@@ -106,12 +106,12 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
     var under_over_bB=0;
     function inverse_bB() {
       if (under_over_bB==0) {
-        $("#under_over_txt_bB").html('ROLL OVER TO WIN');
+        $("#under_over_txt_bB").html('Roll over');
         under_over_bB=1;
         recountUnderOver_bB();
       }
       else {
-        $("#under_over_txt_bB").html('ROLL UNDER TO WIN');
+        $("#under_over_txt_bB").html('Roll under');
         under_over_bB=0;
         recountUnderOver_bB();
       }
