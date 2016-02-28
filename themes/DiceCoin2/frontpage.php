@@ -87,28 +87,28 @@
                                         <div class="row">
                                             <input id="bt_rolls_bB" placeholder="Rolls" type="text">
                                             <div>
-                                                <input id="bB_loss_return" class="bB_checkbox" type="checkbox">
+                                                <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
                                                 <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
                                             </div>
                                             <div>
                                                 <input id="bB_loss_increase" class="bB_checkbox" type="checkbox" checked="checked">
                                                 <label for="bB_loss_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
-                                                <input type="text" id="bB_loss_increase_by" value="0.00">
+                                                <input class="input" type="text" id="bB_loss_increase_by" value="0.00">
                                             </div>
                                             <div>
-                                                <input id="bB_win_return" type="checkbox" checked="checked">
+                                                <input class="input" id="bB_win_return" type="checkbox" checked="checked">
                                                 <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
                                             </div>
                                             <div>
                                                 <input id="bB_win_increase" type="checkbox">
                                                 <label for="bB_win_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
-                                                <input type="text" id="bB_win_increase_by" value="0.00">
+                                                <input class="input" type="text" id="bB_win_increase_by" value="0.00">
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <input id="bt_wager_bB" placeholder="Base bet" type="text">
-                                            <input id="bB_max_loss_val" placeholder="Max loss" type="text">
-                                            <input id="bB_max_win_val" placeholder="Max loss" type="text">
+                                            <input class="input" id="bt_wager_bB" placeholder="Base bet" type="text">
+                                            <input class="input" id="bB_max_loss_val" placeholder="Max loss" type="text">
+                                            <input class="input" id="bB_max_win_val" placeholder="Max loss" type="text">
                                         </div>
                                     </div>
                                     <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
