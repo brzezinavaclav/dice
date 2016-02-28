@@ -86,6 +86,7 @@
                                     <div class="auto-play-block">
                                         <div class="row">
                                             <div style="width: 145px; float: left;">
+                                                <b>Operate</b>
                                             <div>
                                                 <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
                                                 <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
@@ -97,6 +98,7 @@
                                             </div>
                                             </div>
                                             <div style="width: 145px; float: left;">
+                                                <b>On loss</b>
                                             <div>
                                                 <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
                                                 <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
@@ -108,6 +110,7 @@
                                             </div>
                                             </div>
                                             <div style="width: 140px; float: left;">
+                                                <b>On win</b>
                                             <div>
                                                 <input class="input" id="bB_win_return" type="checkbox" checked="checked">
                                                 <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
