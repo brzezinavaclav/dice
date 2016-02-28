@@ -63,7 +63,7 @@ div.msgBoxImage{
 .under_over_num{
     cursor: pointer;
 }
-.button.roll-dice:focus{
+.button.roll-dice:focus, .button.deposit:focus, .button.withdraw:focus{
     text-decoration: none;
     color: #fff;
 }
