@@ -59,14 +59,13 @@ switch ($_GET['con']) {
           $profit_class='win';
           $plusko='+';
         }
-        if ($my_bet['win_lose']==1): $content.='<div style="" class="default-row lose">';
-        else: $content.='<div style="" class="default-row win">';endif;
+        $content.='<div style="" class="default-row '. $profit_class .'">';
         $content.='<table>';
         $content.='<tbody>';
         $content.='<tr>';
         $content.='<td class="color status">';
-        if ($my_bet['win_lose']==1){ $content.= 'LOSE';}
-        else $content.= 'WIN';
+        if ($my_bet['win_lose']==1){ $content.= 'WIN';}
+        else $content.= 'LOSE';
         $content.='</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
@@ -121,14 +120,13 @@ switch ($_GET['con']) {
           $plusko='+';
         }
 
-        if ($my_bet['win_lose']==1): $content.='<div style="" class="default-row lose">';
-        else: $content.='<div style="" class="default-row win">';endif;
+        $content.='<div style="" class="default-row '. $profit_class .'">';
         $content.='<table>';
         $content.='<tbody>';
         $content.='<tr>';
         $content.='<td class="color status">';
-        if ($my_bet['win_lose']==1){ $content.= 'LOSE';}
-        else $content.= 'WIN';
+        if ($my_bet['win_lose']==1){ $content.= 'WIN';}
+        else $content.= 'LOSE';
         $content.='</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
