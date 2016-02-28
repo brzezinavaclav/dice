@@ -63,7 +63,7 @@ switch ($_GET['con']) {
         $content.='<tbody>';
         $content.='<tr>';
         $content.= '<td class="color status">'. $profit_class .'</td>';
-        $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'X</td>';
+        $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).' x</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td>'.$target.'</td>';
         $content.='<td><i class="fa fa-btc"></i>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
@@ -121,7 +121,7 @@ switch ($_GET['con']) {
         $content.='<tbody>';
         $content.='<tr>';
         $content.= '<td class="color status">'. $profit_class .'</td>';
-        $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'X</td>';
+        $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).' x</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td>'.$target.'</td>';
         $content.='<td><i class="fa fa-btc"></i>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
