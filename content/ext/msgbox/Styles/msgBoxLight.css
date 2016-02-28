@@ -79,6 +79,9 @@ div.msgBoxContent p
     color: rgb(115, 115, 115);
     font-size: 1.2em;
 }
+div.msgBoxContent b{
+    color: #000;
+}
 
 div.msgBoxContent span 
 {
