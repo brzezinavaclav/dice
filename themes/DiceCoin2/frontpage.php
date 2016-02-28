@@ -210,11 +210,11 @@
 <div class="footer">
     <div class="copyright">&copy; <?php echo Date('Y').' '.$settings['title']; ?>. All rights reserved.</div>
     <div class="links">
-        <a href="https://dicecoin.io/user/login">Login</a>
-        <a href="mailto:contact@dicecoin.io">Contact</a>
+        <a href="/admin">Login</a>
+        <a href="#">Contact</a>
         <a href="https://bitcointalk.org/index.php?topic=463273.0">Bitcointalk</a>
-        <a href="https://www.facebook.com/Dicecoin-1032219373505393/">Facebook</a>
-        <a href="https://dicecoin.io/terms">Terms of Use</a>
+        <a href="#">Facebook</a>
+        <a href="#">Terms of Use</a>
     </div>
     <div class="clear"></div>
 </div>

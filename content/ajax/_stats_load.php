@@ -198,17 +198,20 @@ switch ($_GET['con']) {
     $all_bets=mysql_query("SELECT *,(`bet_amount`*`multiplier`) AS `profit_on_win` FROM `bets` WHERE `bet_amount`!=0 AND `win_lose`=1 ORDER BY `profit_on_win` DESC LIMIT 30");
     if (mysql_num_rows($all_bets)==0) $content.='<br><br><br><i>No one has bet yet.</i>';
     else {
+      $content.='<div class="default-row headingrow">';
       $content.='<table id="bets_st_table">';
+      $content.='<thead>';
       $content.='<tr>';
-      $content.='<th>BET ID</th>';
-      $content.='<th>PLAYER</th>';
-      $content.='<th>TIME</th>';
-      $content.='<th>BET</th>';
-      $content.='<th>MULTIPLIER</th>';
-      $content.='<th>TARGET</th>';
-      $content.='<th>ROLL</th>';
-      $content.='<th>PROFIT</th>';
+      $content.='<td>Result</td>';
+      $content.='<td>Multiplier</td>';
+      $content.='<td>Roll</td>';
+      $content.='<td>Target</td>';
+      $content.='<td>Bet</td>';
+      $content.='<td>Profit</td>';
       $content.='</tr>';
+      $content.='</thead>';
+      $content.='</table>';
+      $content.='</div>';
       $suda=0;
       while ($all_bet=mysql_fetch_array($all_bets)) {
         $content.=($suda==0)?'<tr>':'<tr class="suda">';
@@ -230,15 +233,20 @@ switch ($_GET['con']) {
           $plusko='+';
         }
 
-        $content.='<td class="betId first">'.$all_bet['id'].'</td>';
-        $content.='<td>'.$username['alias'].'</td>';
-        $content.='<td>'.date('H:i:s',strtotime($all_bet['time'])).'</td>';
-        $content.='<td>'.sprintf("%.8f",$all_bet['bet_amount']).'</td>';
-        $content.='<td>'.sprintf("%.2f",$all_bet['multiplier']).'</td>';
+        $content.='<div style="" class="default-row '. $profit_class .'">';
+        $content.='<table>';
+        $content.='<tbody>';
+        $content.='<tr>';
+        $content.= '<td class="color status">'. $profit_class .'</td>';
+        $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).' x</td>';
+        $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td>'.$target.'</td>';
-        $content.='<td>'.sprintf("%.2f",$all_bet['result']).'</td>';
-        $content.='<td class="'.$profit_class.' right last">'.$plusko.sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
+        $content.='<td><i class="fa fa-btc"></i>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
+        $content.='<td class="color"><i class="fa fa-btc"></i>'.sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
         $content.='</tr>';
+        $content.='</tbody>';
+        $content.='</table>';
+        $content.='</div>';
         $suda=($suda==0)?1:0;
       }
       $content.='</table>';

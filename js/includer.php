@@ -341,6 +341,7 @@ function faucet() {
         content:"<p>0.00000500 BTC</p>",
         type:"info",
         opacity:0.8,
+
     });
     return false;
 }
