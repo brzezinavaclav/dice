@@ -93,3 +93,7 @@ a.fa:hover, a.fa:focus{
 .default-row td{
     width: 16.6%;
 }
+.stats #content{
+    max-height: 320px;
+    overflow: hidden;
+}
