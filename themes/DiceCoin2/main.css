@@ -1,4 +1,7 @@
 @import "dicecoin.min.css";
+*{
+    outline: none;
+}
 html, body {
     height: auto;
 }
