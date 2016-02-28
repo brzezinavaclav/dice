@@ -4,7 +4,7 @@ div.msgBox
     position: fixed;
     z-index: 1000;
     font-family:Verdana;
-    width: 580px;
+    width: 560px;
     color: #000;
     background-color: #fff;
 }
