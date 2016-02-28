@@ -35,14 +35,14 @@ $invested=$investor['amount'];
 $share=(($serverFreeBalance)==0)?0:(($invested/$serverFreeBalance)*(100-$settings['inv_perc']));
 
 $return=array(
-  'con' => "<br><small><table>
-  <tr><td>You can invest:&nbsp;&nbsp;&nbsp;</td><td><b>".sprintf("%.8f",$player['balance'])."</b> ".$settings['currency_sign']."</td></tr>
-  <tr><td>Invested:</td><td><b>".sprintf("%.8f",$invested)."</b> ".$settings['currency_sign']."</td></tr>
-  <tr><td>Bakroll share:</td><td><b>".rtrim(rtrim(sprintf("%.8f",$share),'0'),'.')."</b> %</td></tr>
-  </table>
-  <br><input type='text' class='_inv_amount'><a class='btn' onclick='javascript:_invest();'>INVEST</a>
+  'con' => "
+  <p>You can invest:&nbsp;&nbsp;&nbsp;<b>".sprintf("%.8f",$player['balance'])."</b> ".$settings['currency_sign']."</p>
+  <p>Invested:<b>".sprintf("%.8f",$invested)."</b> ".$settings['currency_sign']."</p>
+  <p>Bakroll share:<b>".rtrim(rtrim(sprintf("%.8f",$share),'0'),'.')."</b> %</p>
+
+  <input type='text' class='_inv_amount'><a class='btn' onclick='javascript:_invest();'>INVEST</a>
   <br><input type='text' class='_div_amount'><a class='btn' onclick='javascript:_divest();'>DIVEST</a>
-  <br><br><small><i>Minimum investment is <b>".sprintf("%.8f",$settings['inv_min'])."</b> ".$settings['currency_sign']."</i></small>
+  <p>Minimum investment is <b>".sprintf("%.8f",$settings['inv_min'])."</b> ".$settings['currency_sign']."</p>
   "
 );
 echo json_encode($return);
