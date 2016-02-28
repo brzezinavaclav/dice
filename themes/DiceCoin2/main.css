@@ -82,6 +82,10 @@ a.fa:hover, a.fa:focus{
 .stats_switcher{
     border-bottom: 1px solid #ddd;
 }
+.stats_switcher li{
+    float: left;
+    margin-bottom: -1px;
+}
 .stats_switcher a{
     position: relative;
     display: block;
@@ -90,8 +94,6 @@ a.fa:hover, a.fa:focus{
     line-height: 1.42857;
     border: 1px solid transparent;
     border-radius: 4px 4px 0 0;
-    float: left;
-    margin-bottom: -1px;
 }
 .stats_switcher a.current, .stats_switcher a.current:hover, .stats_switcher a.current:focus {
     color: #555;
