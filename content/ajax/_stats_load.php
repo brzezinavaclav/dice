@@ -69,8 +69,8 @@ switch ($_GET['con']) {
         else $content.= 'WIN';
         $content.='</td>';
         $content.='<td class="fourth">'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
-        $content.='<td class="third">'.sprintf("%.2f",$my_bet['result']).'</td>';
-        $content.='<td class="fifth">'.$target.'</td>';
+        $content.='<td class="fifth">'.sprintf("%.2f",$my_bet['result']).'</td>';
+        $content.='<td class="third">'.$target.'</td>';
         $content.='<td class="sixth"><i class="fa fa-btc"></i>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
         $content.='<td class="'.$profit_class.' seventh"><i class="fa fa-btc"></i>'.sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
         $content.='</tr>';
