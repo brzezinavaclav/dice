@@ -31,7 +31,7 @@ div.msgBoxImage{
     display: none;
 }
 .block-content table input[type="text"]{
-    width: 80px;
+    width: 100%;
 }
 .select tr td:first-child {
     width: 33%;
