@@ -85,7 +85,7 @@
                                 <form action="#" id="auto_form">
                                     <div class="auto-play-block">
                                         <div class="row">
-                                            <input id="bt_rolls_bB" placeholder="Rolls" type="text">
+                                            <input class="input" id="bt_rolls_bB" placeholder="Rolls" type="text">
                                             <div>
                                                 <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
                                                 <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
