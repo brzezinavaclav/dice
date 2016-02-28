@@ -84,7 +84,7 @@ a.fa:hover, a.fa:focus{
     color: #818181;
     padding-top: 15px;
 }
-#bets_st_table .default-row {
+#bets_st_table tr {
     text-align: left;
     background-color: #f7f7f7;
     margin-bottom: 10px;
