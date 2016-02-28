@@ -112,21 +112,6 @@ div.msgBoxButtons input[type='button']
     text-transform: uppercase;
     font-size: 1.5em;
 }
-div.msgBoxButtons input[type='button']:hover
-{
-    background-color:#00549c;
-    color:White;                                                  
-}
-div.msgBoxButtons input[type='button']:active
-{
-    background-color:#AAAAAA;
-    color:White;
-}
-div.msgBoxButtons input[type='button']._inactive
-{
-    background-color:#AAAAAA;
-    color:White;
-}
 
 div.msgBoxInputs
 {
