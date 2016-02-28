@@ -91,36 +91,39 @@
                                         </div>
                                         <div class="row">
                                             <div style="width: 145px; float: left;">
-                                                <p>Operate</p>
-                                                <div>
+                                                <div style="padding-left: 3px">
+                                                    <label>Operate</label>
+                                                    <br>
                                                     <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
                                                     <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
                                                 </div>
-                                                <div>
+                                                <div style="padding-left: 3px">
                                                     <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
                                                     <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label><br>
                                                 </div>
                                                 <input class="input" id="bt_rolls_bB" value="100" type="text" style="margin-top: 10px;">
                                             </div>
                                             <div style="width: 145px; float: left;">
-                                                <p>On loss</p>
-                                                <div>
+                                                <div style="padding-left: 3px">
+                                                    <label>On loss</label>
+                                                    <br>
                                                     <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
                                                     <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
                                                 </div>
-                                                <div>
+                                                <div style="padding-left: 3px">
                                                     <input id="bB_loss_increase" class="bB_checkbox" type="checkbox" checked="checked">
                                                     <label for="bB_loss_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
                                                 </div>
                                                 <input class="input" type="text" id="bB_loss_increase_by" value="0.00" style="margin-top: 10px;">
                                             </div>
                                             <div style="width: 140px; float: left;">
-                                                <p>On win</p>
-                                                <div>
+                                                <div style="padding-left: 3px">
+                                                    <label>On win</label>
+                                                    <br>
                                                     <input class="input" id="bB_win_return" type="checkbox" checked="checked">
                                                     <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
                                                 </div>
-                                                <div>
+                                                <div style="padding-left: 3px">
                                                     <input id="bB_win_increase" type="checkbox">
                                                     <label for="bB_win_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
                                                 </div>
