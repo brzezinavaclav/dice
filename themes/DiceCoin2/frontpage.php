@@ -317,7 +317,6 @@
     var tabBets = tabs({
         el: '#tab_bets',
         tabNavigationLinks: '.tab',
-        tabContentContainers: '.tab-pane'
     });
     tabBets.init();
 </script>
