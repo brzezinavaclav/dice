@@ -88,9 +88,10 @@
                                             <div>
                                                 <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
                                                 <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
+                                                <br>
                                                 <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
                                                 <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label>
-                                                <input class="input" id="bt_rolls_bB" placeholder="Rolls" type="text">
+                                                <input class="input" id="bt_rolls_bB" value="100" type="text">
                                             </div>
                                             <div>
                                                 <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
@@ -114,7 +115,7 @@
                                         <div class="row">
                                             <input class="input" id="bt_wager_bB" placeholder="Base bet" type="text">
                                             <input class="input" id="bB_max_loss_val" placeholder="Max loss" type="text">
-                                            <input class="input" id="bB_max_win_val" placeholder="Max loss" type="text">
+                                            <input class="input" id="bB_max_win_val" placeholder="Max Profit" type="text">
                                         </div>
                                     </div>
                                     <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
