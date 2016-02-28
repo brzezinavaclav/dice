@@ -64,8 +64,6 @@ switch ($_GET['con']) {
         $content.='<table>';
         $content.='<tbody>';
         $content.='<tr>';
-        $content.='<td>'.$my_bet['id'].'</td>';
-        $content.='<td>'.$username['alias'].'</td>';
         $content.='<td>'.date('H:i:s',strtotime($my_bet['time'])).'</td>';
         $content.='<td>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
