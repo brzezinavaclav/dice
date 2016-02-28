@@ -201,7 +201,6 @@
 
 
 
-        </div>
     </div>
 <div class="footer">
     <div class="copyright">&copy; <?php echo Date('Y').' '.$settings['title']; ?>. All rights reserved.</div>
