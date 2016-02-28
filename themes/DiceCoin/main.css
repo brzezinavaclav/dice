@@ -825,3 +825,9 @@ html, body {
 }
 .choise .mbet {
 }
+.button.withdraw{
+  border-top: 1px solid #2e709a;
+  border-bottom: 1px solid #327caa;
+  text-shadow: -1px 1px 0 rgba(0,0,0,0.2);
+  background-color: #3076a2;
+}
