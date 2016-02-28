@@ -90,3 +90,6 @@ a.fa:hover, a.fa:focus{
     cursor: default;
     outline: none;
 }
+.default-row td{
+    width: 16.6%;
+}
