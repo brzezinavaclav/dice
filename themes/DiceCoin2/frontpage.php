@@ -64,6 +64,8 @@
                                         </tr>
                                         </tbody>
                                     </table>
+                                    </div>
+                                </div>
                             <div role="tabpanel" class="tab-pane active" id="manual">
                                     <div class="play-block">
                                         <input  id="bt_wager" class="input"  placeholder="Input Bet" required="" autofocus="" type="text"  value="0.00000000">
