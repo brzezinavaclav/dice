@@ -150,7 +150,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-4">
-                                    <div class="label">Password:</div>
+                                    <div class="label">Password:<?php if ($player['password']!='') echo 'Yes'; else echo 'No'; ?></div>
                                 </div>
                                 <div class="col-xs-8">
                                     <span id="password">-</span>
@@ -161,7 +161,7 @@
                                     <div class="label">Bets:</div>
                                 </div>
                                 <div class="col-xs-8">
-                                    <span id="bets">0</span> - <span class="green" id="wins">0</span> / <span class="red" id="loses">0</span>
+                                    <span id="bets"><?php echo $player['t_bets'];?></span> - <span class="green" id="wins"><?php echo $player['t_wins'];?></span> / <span class="red" id="loses"><?php echo ($player['t_bets']-$player['t_wins']);?></span>
                                 </div>
                             </div>
                             <div class="row">
