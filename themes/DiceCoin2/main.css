@@ -94,6 +94,6 @@ a.fa:hover, a.fa:focus{
     width: 16.6%;
 }
 .stats #content{
-    max-height: 320px;
+    max-height: 340px;
     overflow: hidden;
 }
