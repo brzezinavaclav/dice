@@ -246,7 +246,7 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
     }
     function viewPending() {
       $.msgBox({
-        title:"Pending Deposits<a href=\"#\" onclick=\"javascript:loadPending();return false;\" style=\"float: right;\" title=\"Refresh\"><img style=\"width: 25px; height: 25px; margin-right: 5px;\" src=\"./content/images/refresh.png\"></a>",
+        title:"Pending Deposits<a href=\"#\" onclick=\"javascript:loadPending();return false;\" style=\"float: right;\" title=\"Refresh\"></a>",
         content:"<div id=\"_pending_content\"></div>",
         type:"info",
         opacity:0.8,
