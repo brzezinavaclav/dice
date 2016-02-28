@@ -133,7 +133,7 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         rolling=true;
         lastBet=Date.now();
         $("#betBtn").html('ROLLING');
-        if (bot!=true) _stats_content('my_bets');      
+        _stats_content('my_bets');
         $.ajax({
           'url': './content/ajax/place.php?w='+wager+'&m='+multiplier+'&hl='+under_over+'&_unique=<?php echo $unique; ?>',
           'dataType': "json",
@@ -548,13 +548,13 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         bB_active=true;
         operateNum=parseInt($("#bt_rolls_bB").val());
         if (operateMode==1) {
-          $("#botBtn").html('TIME LEFT TO OPERATE: '+operateNum+'s');
+          $("#botBtn").html('Time left: '+operateNum+'s');
           _interval=setInterval(function(){
             if (operateNum!=0) operateNum--;
-            $("#botBtn").html('TIME LEFT TO OPERATE: '+operateNum+'s');
+            $("#botBtn").html('Time left: '+operateNum+'s');
           },1000);
         }
-        else $("#botBtn").html('ROLLS LEFT TO OPERATE: '+operateNum);
+        else $("#botBtn").html('Rolls: '+operateNum);
         $("#botBtn").qtip({
           content: {
             text: 'Click to stop betting'
@@ -574,7 +574,7 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         operateNum=0;
         bB_active=false;
         makeQtipFalse();
-        $("#botBtn").html('CANCELLING');
+        $("#botBtn").html('Canceling');
         placed(0);
       }
     }
@@ -583,7 +583,7 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
         if (typeof(_interval)!='undefined') clearInterval(_interval);
         bB_active=false;
         makeQtipFalse();
-        $("#botBtn").html('START AUTOMATIC BETTING');
+        $("#botBtn").html('Start');
         bB_profit=0;
       }              
       else {
