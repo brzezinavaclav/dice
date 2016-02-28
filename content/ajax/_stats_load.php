@@ -27,17 +27,20 @@ switch ($_GET['con']) {
     $my_bets=mysql_query("SELECT * FROM `bets` WHERE `player`=$player[id] ORDER BY `time` DESC LIMIT 30");
     if (mysql_num_rows($my_bets)==0) $content.='<br><br><br><i>You haven\'t bet yet.</i>';
     else {
+      $content.='<div class="default-row headingrow">';
       $content.='<table id="bets_st_table">';
+      $content.='<thead>';
       $content.='<tr>';
-      $content.='<th>BET ID</th>';
-      $content.='<th>PLAYER</th>';
-      $content.='<th>TIME</th>';
-      $content.='<th>BET</th>';
-      $content.='<th>MULTIPLIER</th>';
-      $content.='<th>TARGET</th>';
-      $content.='<th>ROLL</th>';
-      $content.='<th>PROFIT</th>';
+      $content.='<td class="first">TIME</td>';
+      $content.='<td class="fourth">BET</td>';
+      $content.='<td class="fifth">MULTIPLIER</td>';
+      $content.='<td class="third">TARGET</td>';
+      $content.='<td class="sixth">ROLL</td>';
+      $content.='<td class="seventh">PROFIT</td>';
       $content.='</tr>';
+      $content.='</thead>';
+      $content.='</table>';
+      $content.='</div>';
       $suda=0;
       while ($my_bet=mysql_fetch_array($my_bets)) {
         $content.=($suda==0)?'<tr>':'<tr class="suda">';
@@ -56,8 +59,12 @@ switch ($_GET['con']) {
           $profit_class='win';
           $plusko='+';
         }
-
-        $content.='<td class="betId first">'.$my_bet['id'].'</td>';
+        if ($my_bet['win_lose']==1): $content.='<div style="" class="default-row lose">';
+        else: $content.='<div style="" class="default-row win">';endif;
+        $content.='<table>';
+        $content.='<tbody>';
+        $content.='<tr>';
+        $content.='<td>'.$my_bet['id'].'</td>';
         $content.='<td>'.$username['alias'].'</td>';
         $content.='<td>'.date('H:i:s',strtotime($my_bet['time'])).'</td>';
         $content.='<td>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
@@ -66,9 +73,11 @@ switch ($_GET['con']) {
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td class="'.$profit_class.' right last">'.$plusko.sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
         $content.='</tr>';
+        $content.='</tbody>';
+        $content.='</table>';
+        $content.='</div>';
         $suda=($suda==0)?1:0;
       }
-      $content.='</table>';
     }
   break;
   case 'all_bets':
