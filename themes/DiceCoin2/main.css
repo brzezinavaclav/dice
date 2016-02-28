@@ -79,3 +79,22 @@ a.fa{
 a.fa:hover, a.fa:focus{
     text-decoration: none;
 }
+.stats_switcher{
+    border-bottom: 1px solid #ddd;
+}
+.stats_switcher a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-right: 2px;
+    line-height: 1.42857;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.stats_switcher a.current, .stats_switcher a.current:hover, .stats_switcher a.current:focus {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
