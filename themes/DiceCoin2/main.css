@@ -97,3 +97,6 @@ a.fa:hover, a.fa:focus{
     height: 350px;
     overflow: hidden;
 }
+.default-row .status {
+    text-transform: uppercase;
+}
