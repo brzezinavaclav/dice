@@ -88,7 +88,8 @@
                                             <div>
                                                 <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
                                                 <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
-                                                <br>
+                                            </div>
+                                            <div>
                                                 <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
                                                 <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label>
                                                 <input class="input" id="bt_rolls_bB" value="100" type="text">
