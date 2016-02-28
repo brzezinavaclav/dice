@@ -106,14 +106,16 @@ div.msgBoxButtons input[type='button']
     font-size: 1.5em;
 }
 div.msgBoxContent .btn{
-    cursor:pointer;
-    color:#FFFFFF;
+    cursor: pointer;
+    color: #FFFFFF;
     background-color: rgb(51, 185, 137);
     border: medium none;
     border-radius: 0px;
-    padding: 15px;
+    padding: 14px;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 div.msgBoxInputs
 {
