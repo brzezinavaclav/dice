@@ -58,7 +58,7 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td onclick="javascript:inverse_bB();">49.50</td>
+                                            <td onclick="javascript:inverse_bB();" style="font-weight: 300; font-size: 21px;">49.50</td>
                                             <td class="second"><input type="text" id="betTb_multiplier_bB"  value="2.00"><span class="input_addon">X</span></td>
                                             <td class="third"><input type="text" id="betTb_chance_bB"  value="49.50"><span class="input_addon">%</span></td>
                                         </tr>
