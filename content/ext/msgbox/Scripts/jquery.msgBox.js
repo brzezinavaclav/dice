@@ -145,7 +145,7 @@ function msg (options) {
 
     function show() {
         if (isShown) {
-            return;
+            hide();
         }
         divMsgBox.css({ opacity: 0, top: top - 50, left: left });
         divMsgBox.css("background-image", "url('"+msgBoxImagePath+"msgBoxBackGround.png')");

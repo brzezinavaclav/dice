@@ -180,6 +180,7 @@
                     <div class="buttons-group player-group">
                         <a class="button deposit deposit-block" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
                         <a class="button withdraw withdraw-block" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
+                        <a id="history" class="button history"><span class="glyphicon glyphicon-align-justify"></span><span id="history_unread" class="unread" style="display:none"></span></a>
                     </div>
                 </div>
             </div>
