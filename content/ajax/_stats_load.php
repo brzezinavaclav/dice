@@ -64,15 +64,15 @@ switch ($_GET['con']) {
         $content.='<table>';
         $content.='<tbody>';
         $content.='<tr>';
-        $content.='<td class="first">';
+        $content.='<td class="first color status">';
         if ($my_bet['win_lose']==1){ $content.= 'LOSE';}
         else $content.= 'WIN';
         $content.='</td>';
         $content.='<td class="fourth">'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
         $content.='<td class="third">'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td class="fifth">'.$target.'</td>';
-        $content.='<td class="sixth">'.sprintf("%.8f",$my_bet['bet_amount']).'<i class="fa fa-btc"></i></td>';
-        $content.='<td class="'.$profit_class.' seventh">'.$plusko.sprintf("%.8f",floor($profit*100000000)/100000000).'<i class="fa fa-btc"></i></td>';
+        $content.='<td class="sixth"><i class="fa fa-btc"></i>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
+        $content.='<td class="'.$profit_class.' seventh"><i class="fa fa-btc"></i>'.sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
         $content.='</tr>';
         $content.='</tbody>';
         $content.='</table>';
