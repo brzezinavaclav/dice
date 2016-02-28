@@ -51,7 +51,11 @@ div.msgBoxImage{
     position: absolute;
     right: 15px;
     top: 18px;
+    font-weight: 300;
 }
 .input, input[type="text"]{
     font-weight: 300;
+}
+.select.info-block{
+    height: 85px;
 }
