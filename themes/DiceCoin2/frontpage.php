@@ -51,16 +51,16 @@
                                     <table>
                                         <thead>
                                         <tr>
-                                            <td><span id="under_over_txt_bB">Roll under</span></td>
+                                            <td><span id="under_over_txt">Roll under</span></td>
                                             <td class="second">Multiplier</td>
                                             <td class="third">Win chance</td>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td onclick="javascript:inverse_bB();" style="font-weight: 300; font-size: 21px;"><span id="under_over_num_bB" class="under_over_num">49.50</span></td>
+                                            <td onclick="javascript:inverse_bB();" style="font-weight: 300; font-size: 21px;"><span class="under_over_num">49.50</span></td>
                                             <td class="second"><input type="text" id="betTb_multiplier" value="2.00"><span class="input_addon">X</span></td>
-                                            <td class="third"><input type="text" id="betTb_chance_bB"  value="49.50"><span class="input_addon">%</span></td>
+                                            <td class="third"><input type="text" id="betTb_chance" value="49.50"><span class="input_addon">%</span></td>
                                         </tr>
                                         </tbody>
                                     </table>
