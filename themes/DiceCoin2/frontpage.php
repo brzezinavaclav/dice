@@ -48,22 +48,20 @@
                         <div class="tab-content">
                             <div class="select info-block">
                                 <div class="block-content value">
-                                    <table>
-                                        <thead>
-                                        <tr>
-                                            <td><span id="under_over_txt">Roll under</span></td>
-                                            <td class="second">Multiplier</td>
-                                            <td class="third">Win chance</td>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <td onclick="javascript:inverse_bB();" style="font-weight: 300; font-size: 21px;"><span id="under_over_num">49.50</span></td>
-                                            <td class="second"><input type="text" id="betTb_multiplier" value="2.00"><span class="input_addon">X</span></td>
-                                            <td class="third"><input type="text" id="betTb_chance" value="49.50"><span class="input_addon">%</span></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="betTb">
+                                        <div id="under_over" class="betTbL" onclick="javascript:inverse();">
+                                            <span id="under_over_txt" class="under_over_txt">ROLL UNDER TO WIN</span><br>
+                                            <span id="under_over_num" class="under_over_num">49.50</span>
+                                        </div>
+                                        <div class="betTbC">
+                                            <small><small><b>MULTIPLIER</b></small></small><br>
+                                            <input type="text" id="betTb_multiplier" class="bt_input top3 betTb_input betTb_payoutL" value="2.00"><input type="text" id="betTb_multiplier_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_multiplier').focus();" value="x">
+                                        </div>
+                                        <div class="betTbR">
+                                            <small><small><b>WIN CHANCE</b></small></small><br>
+                                            <input type="text" id="betTb_chance" class="bt_input top3 betTb_input betTb_payoutL" value="49.50"><input type="text" id="betTb_chance_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_chance').focus();" value="%">
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                             <div role="tabpanel" class="tab-pane active" id="manual">
