@@ -40,8 +40,8 @@ $return=array(
   <tr><td>Invested:</td><td><b>".sprintf("%.8f",$invested)."</b> ".$settings['currency_sign']."</td></tr>
   <tr><td>Bakroll share:</td><td><b>".rtrim(rtrim(sprintf("%.8f",$share),'0'),'.')."</b> %</td></tr>
   </table>
-  <br><br>Amount: <input type='text' class='_inv_amount'> ".$settings['currency_sign']." <button onclick='javascript:_invest();'>INVEST</button>
-  <br>Amount: <input type='text' class='_div_amount'> ".$settings['currency_sign']." <button onclick='javascript:_divest();'>DIVEST</button>
+  <br><input type='text' class='_inv_amount' placeholder='Amount'><a class='button' onclick='javascript:_invest();'>INVEST</a>
+  <br><input type='text' class='_div_amount' placeholder='Amount'><a class='button' onclick='javascript:_divest();'>DIVEST</a>
   <br><br><small><i>Minimum investment is <b>".sprintf("%.8f",$settings['inv_min'])."</b> ".$settings['currency_sign']."</i></small>
   "
 );
