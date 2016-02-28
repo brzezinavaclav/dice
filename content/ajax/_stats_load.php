@@ -57,7 +57,6 @@ switch ($_GET['con']) {
         if ($my_bet['win_lose']==1) {
           $profit+=$my_bet['bet_amount']*$my_bet['multiplier'];
           $profit_class='win';
-          $plusko='+';
         }
         $content.='<div style="" class="default-row '. $profit_class .'">';
         $content.='<table>';
@@ -68,7 +67,7 @@ switch ($_GET['con']) {
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td>'.$target.'</td>';
         $content.='<td><i class="fa fa-btc"></i>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
-        $content.='<td class="'.$profit_class.'"><i class="fa fa-btc"></i>'. $plusko .sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
+        $content.='<td class="'.$profit_class.'"><i class="fa fa-btc"></i>'.sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
         $content.='</tr>';
         $content.='</tbody>';
         $content.='</table>';
