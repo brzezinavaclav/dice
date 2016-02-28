@@ -82,10 +82,6 @@ a.fa:hover, a.fa:focus{
 .stats_switcher{
     border-bottom: 1px solid #ddd;
 }
-.stats_switcher li{
-    float: left;
-    margin-bottom: -1px;
-}
 .stats_switcher a{
     position: relative;
     display: block;
