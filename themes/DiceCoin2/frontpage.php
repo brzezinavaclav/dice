@@ -86,14 +86,17 @@
                                     <div class="auto-play-block">
                                         <div class="row">
                                             <div>
+                                            <div>
                                                 <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
                                                 <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
                                             </div>
                                             <div>
                                                 <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
-                                                <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label>
+                                                <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label><br>
                                                 <input class="input" id="bt_rolls_bB" value="100" type="text">
                                             </div>
+                                            </div>
+                                            <div>
                                             <div>
                                                 <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
                                                 <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
@@ -103,6 +106,8 @@
                                                 <label for="bB_loss_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
                                                 <input class="input" type="text" id="bB_loss_increase_by" value="0.00">
                                             </div>
+                                            </div>
+                                            <div>
                                             <div>
                                                 <input class="input" id="bB_win_return" type="checkbox" checked="checked">
                                                 <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
@@ -111,6 +116,7 @@
                                                 <input id="bB_win_increase" type="checkbox">
                                                 <label for="bB_win_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
                                                 <input class="input" type="text" id="bB_win_increase_by" value="0.00">
+                                            </div>
                                             </div>
                                         </div>
                                         <div class="row">
