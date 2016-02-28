@@ -147,7 +147,7 @@ function msg (options) {
         if (isShown) {
             return;
         }
-        divMsgBox.css({ opacity: 0, top: top - 50, left: left });
+        divMsgBox.css({ opacity: 0, top: 50, left: left });
         divMsgBox.css("background-image", "url('"+msgBoxImagePath+"msgBoxBackGround.png')");
         divMsgBoxBackGround.css({ opacity: options.opacity });
         options.beforeShow();
