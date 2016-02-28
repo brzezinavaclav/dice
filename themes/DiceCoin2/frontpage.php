@@ -1,4 +1,4 @@
-    <link href="//fonts.googleapis.com/css?family=Lora:700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Lora:700" rel="stylesheet" xmlns="http://www.w3.org/1999/html">
     <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//cdn.jsdelivr.net/emojione/1.3.0/assets/css/emojione.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td onclick="javascript:inverse_bB();" style="font-weight: 300; font-size: 21px;">49.50</td>
+                                            <td onclick="javascript:inverse_bB();" style="font-weight: 300; font-size: 21px;"><span id="under_over_num_bB">49.50</span></td>
                                             <td class="second"><input type="text" id="betTb_multiplier_bB"  value="2.00"><span class="input_addon">X</span></td>
                                             <td class="third"><input type="text" id="betTb_chance_bB"  value="49.50"><span class="input_addon">%</span></td>
                                         </tr>

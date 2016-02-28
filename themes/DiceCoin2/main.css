@@ -58,4 +58,5 @@ div.msgBoxImage{
 }
 .select.info-block{
     height: 85px;
+    cursor: default;
 }
