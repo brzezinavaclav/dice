@@ -46,57 +46,19 @@
                 <div class="total-info">
                     <div class="game-info">
                         <div class="tab-content">
-                            <div class="select info-block">
-                                <div class="block-content value">
-                                    <table>
-                                        <thead>
-                                        <tr>
-                                            <td>Game</td>
-                                            <td class="second">Chance</td>
-                                            <td class="third">Payout</td>
-                                            <td>Max bet</td>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr data-threshold="5000" data-min-bet="100" data-max-bet="530000000">
-                                            <td>&lt;5,000</td>
-                                            <td class="second">50<span class="mini">%</span></td>
-                                            <td class="third">1.98<span class="mini">x</span></td>
-                                            <td>5.3</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-                                    <div class="drop-icon"></div>
+                            <div class="betTbWrap">
+                                <div id="under_over_bB" class="betTbL betTbL_bB" onclick="javascript:inverse_bB();">
+                                    <span id="under_over_txt_bB" class="under_over_txt under_over_txt_bB">ROLL UNDER TO WIN</span><br>
+                                    <span id="under_over_num_bB" class="under_over_num under_over_num_bB">49.50</span>
                                 </div>
-                                <div class="variants">
-                                    <div class="block-content">
-                                        <div class="variant">
-                                            <table>
-                                                <tbody>
-                                                <tr data-threshold="10" data-min-bet="100" data-max-bet="525000">
-                                                    <td>&lt;10</td>
-                                                    <td class="second">0.1<span class="mini">%</span></td>
-                                                    <td class="third">990<span class="mini">x</span></td>
-                                                    <td>0.00525</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <div class="variant">
-                                            <table>
-                                                <tbody>
-                                                <tr data-threshold="100" data-min-bet="100" data-max-bet="5300000">
-                                                    <td>&lt;100</td>
-                                                    <td class="second">1<span class="mini">%</span></td>
-                                                    <td class="third">99<span class="mini">x</span></td>
-                                                    <td>0.053</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+                                <div class="betTbC">
+                                    <small><small><b>MULTIPLIER</b></small></small><br>
+                                    <input type="text" id="betTb_multiplier_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="2.00"><input type="text" id="betTb_multiplier_Rp_bB" class="bt_input top3 betTb_input betTb_payoutR lessHeight" readonly="readonly" onclick="javascript:$('#betTb_multiplier_bB').focus();" value="x">
                                 </div>
-                            </div>
+                                <div class="betTbR">
+                                    <small><small><b>WIN CHANCE</b></small></small><br>
+                                    <input type="text" id="betTb_chance_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="49.50"><input type="text" id="betTb_chance_Rp_bB" class="bt_input top3 betTb_input betTb_payoutR lessHeight" readonly="readonly" onclick="javascript:$('#betTb_chance_bB').focus();" value="%">
+                                </div>
                             <div role="tabpanel" class="tab-pane active" id="manual">
                                     <div class="play-block">
                                         <input  id="bt_wager" class="input"  placeholder="Input Bet" required="" autofocus="" type="text"  value="0.00000000">
@@ -180,8 +142,9 @@
                     <div class="buttons-group player-group">
                         <span class="buttons-group-glued">
                         <a class="button deposit deposit-block" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
+                        <a id="faucet" class="button faucet deposit-block">Faucet</a>
+                        </span>
                         <a class="button withdraw withdraw-block" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
-                            </span>
                         <a id="history" class="button history" onclick="javascript:return viewPending();"><span class="fa fa-align-justify"></span></a>
                     </div>
                 </div>
