@@ -72,10 +72,12 @@ div.msgBoxContent .dp_addr{
 div.msgBoxContent p
 {
     padding:0;
-    margin:0;
-    display: table;
     height: 100%;
     width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgb(115, 115, 115);
+    font-size: 1.2em;
 }
 
 div.msgBoxContent span 
