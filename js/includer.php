@@ -335,6 +335,15 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
       });
       return false;    
     }
+function faucet() {
+    $.msgBox({
+        title:"Receive a free amount to play with!",
+        content:"<p>0.00000500 BTC</p>",
+        type:"info",
+        opacity:0.8,
+    });
+    return false;
+}
     function _renewWithdraw() {
       _hideCurrent();
       withdraw();

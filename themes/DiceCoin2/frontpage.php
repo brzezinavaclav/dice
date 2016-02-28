@@ -185,7 +185,7 @@
                     <div class="buttons-group player-group">
                         <span class="buttons-group-glued">
                         <a class="button deposit deposit-block" href="#" onclick="javascript:return deposit();">DEPOSIT</a>
-                        <a id="faucet" class="button faucet deposit-block">Faucet</a>
+                        <a id="faucet" class="button faucet deposit-block" onclick="javascript:return faucet();">FAUCET</a>
                         </span>
                         <a class="button withdraw withdraw-block" href="#" onclick="javascript:return withdraw();">WITHDRAW</a>
                         <a id="history" class="button history" onclick="javascript:return viewPending();"><span class="fa fa-align-justify"></span></a>
