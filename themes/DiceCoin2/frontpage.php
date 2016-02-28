@@ -85,7 +85,13 @@
                                 <form action="#" id="auto_form">
                                     <div class="auto-play-block">
                                         <div class="row">
-                                            <input class="input" id="bt_rolls_bB" placeholder="Rolls" type="text">
+                                            <div>
+                                                <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
+                                                <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
+                                                <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
+                                                <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label>
+                                                <input class="input" id="bt_rolls_bB" placeholder="Rolls" type="text">
+                                            </div>
                                             <div>
                                                 <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
                                                 <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
