@@ -79,3 +79,19 @@ a.fa{
 a.fa:hover, a.fa:focus{
     text-decoration: none;
 }
+#bets_st_table thead td {
+    font-size: 16px;
+    color: #818181;
+    padding-top: 15px;
+}
+#bets_st_table .default-row {
+    text-align: left;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #e7e7e7;
+    border-left: 4px solid #34b989;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 10px 0 10px 16px;
+    position: relative;
+}
