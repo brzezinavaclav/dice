@@ -36,7 +36,7 @@ $share=(($serverFreeBalance)==0)?0:(($invested/$serverFreeBalance)*(100-$setting
 
 $return=array(
   'con' => "
-  <p>You can invest:&nbsp;&nbsp;&nbsp;<b>".sprintf("%.8f",$player['balance'])."</b> ".$settings['currency_sign']."</p>
+  <p>You can invest:<b>".sprintf("%.8f",$player['balance'])."</b> ".$settings['currency_sign']."</p>
   <p>Invested:<b>".sprintf("%.8f",$invested)."</b> ".$settings['currency_sign']."</p>
   <p>Bakroll share:<b>".rtrim(rtrim(sprintf("%.8f",$share),'0'),'.')."</b> %</p>
 
