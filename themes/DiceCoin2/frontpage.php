@@ -58,7 +58,7 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <td id="under_over" onclick="javascript:inverse();" style="font-weight: 300; font-size: 21px;"><span id="under_over_num">49.50</span></td>
+                                            <td onclick="javascript:inverse();" style="font-weight: 300; font-size: 21px;"><span id="under_over_num">49.50</span></td>
                                             <td class="second"><input type="text" id="betTb_multiplier" value="2.00"><span class="input_addon">X</span></td>
                                             <td class="third"><input type="text" id="betTb_chance" value="49.50"><span class="input_addon">%</span></td>
                                         </tr>
