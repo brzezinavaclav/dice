@@ -314,9 +314,4 @@
     });
     tabBet.init();
 
-    var tabBets = tabs({
-        el: '#tab_bets',
-        tabNavigationLinks: '.tab',
-    });
-    tabBets.init();
 </script>
