@@ -105,6 +105,16 @@ div.msgBoxButtons input[type='button']
     text-transform: uppercase;
     font-size: 1.5em;
 }
+div.msgBoxButtons .btn{
+    cursor:pointer;
+    color:#FFFFFF;
+    background-color: rgb(51, 185, 137);
+    border: medium none;
+    border-radius: 0px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
 div.msgBoxInputs
 {
     margin:0 auto;
