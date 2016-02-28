@@ -145,7 +145,7 @@
                                 </div>
                                 <div class="col-xs-8">
                                     <span class="blue"><a href="#" id="login"><?php echo $player['alias']; ?></a></span>
-                                    <a onclick="javascript:return account();" id="change_login" title="Change login"><i class="fa fa-pencil"></i></a>
+                                    <a onclick="javascript:return account();" id="change_login" title="Change login" class="fa fa-pencil"></a>
                                 </div>
                             </div>
                             <div class="row">
