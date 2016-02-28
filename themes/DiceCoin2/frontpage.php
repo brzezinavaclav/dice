@@ -193,36 +193,6 @@
                 </div>
             </div>
         </div>
-
-
-
-        <div id="all" class="downer">
-            <div id="content" class="stats_switcher">
-                <a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">MY BETS</a>
-                <a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">ALL BETS</a>
-                <a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">HIGH ROLLERS</a>
-
-                <?php if ($settings['giveaway']==1) { ?><a href="#" class="mini" onclick="javascript:_stats_content('giveaway');return false;" id="_st_giveaway"><img src="./themes/<?php echo $settings['activeTheme']; ?>/icons/giveaway.png" style="position: relative; top: 5px; width: 35px; height: 35px;"></a><?php } ?>
-                <a href="#" class="mini" onclick="javascript:_stats_content('news');return false;" id="_st_news"><img src="./themes/<?php echo $settings['activeTheme']; ?>/icons/news.png" style="position: relative; top: 5px; width: 35px; height: 35px;"></a>
-                <?php if ($settings['chat_enable']==1) { ?><a href="#" class="mini" onclick="javascript:_stats_content('chat');return false;" id="_st_chat"><img src="./themes/<?php echo $settings['activeTheme']; ?>/icons/chat.png" style="position: relative; top: 5px; width: 35px; height: 35px;"></a><?php } ?>
-                <?php if ($settings['bot_enable']==1) { ?><a href="#" class="mini" onclick="javascript:robotLayoutChange();return false;" id="_st_automat"><img src="./themes/<?php echo $settings['activeTheme']; ?>/icons/automat.png" style="position: relative; top: 5px; width: 35px; height: 35px;"></a><?php } ?>
-                <a href="#" class="mini" onclick="javascript:_stats_content('stats');return false;" id="_st_stats"><img src="./themes/<?php echo $settings['activeTheme']; ?>/icons/stats.png" style="position: relative; top: 8px; width: 35px; height: 28px;"></a>
-            </div>
-        </div>
-        <div id="all" class="stats">
-            <div id="content">
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
         <div class="data downer" id="tab_bets" role="tabpanel">
             <ul class="nav nav-tabs stats_switcher" role="tablist">
                 <li role="presentation" class="tab active"><a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">All bets</a></li>
@@ -235,11 +205,6 @@
                 </div>
             </div>
         </div>
-
-
-
-        </div>
-    </div>
 <div class="footer">
     <div class="copyright">&copy; <?php echo Date('Y').' '.$settings['title']; ?>. All rights reserved.</div>
     <div class="links">
