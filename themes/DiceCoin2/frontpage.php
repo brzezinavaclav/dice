@@ -110,7 +110,7 @@
                                             </div>
                                             </div>
                                             <div style="width: 140px; float: left;">
-                                                <b>On win</b>
+                                                <p>On win</p>
                                             <div>
                                                 <input class="input" id="bB_win_return" type="checkbox" checked="checked">
                                                 <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
