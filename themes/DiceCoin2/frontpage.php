@@ -59,8 +59,7 @@
                                         <tbody>
                                         <tr>
                                             <td onclick="javascript:inverse_bB();" style="font-weight: 300; font-size: 21px;"><span id="under_over_num_bB" class="under_over_num">49.50</span></td>
-                                            <td class="second"><input type="text" id="betTb_multiplier" class="bt_input top3 betTb_input betTb_payoutL" value="2.00"><input type="text" id="betTb_multiplier_Rp" class="bt_input top3 betTb_input betTb_payoutR" readonly="readonly" onclick="javascript:$('#betTb_multiplier').focus();" value="x">
-                                            </td>
+                                            <td class="second"><input type="text" id="betTb_multiplier" class="bt_input top3 betTb_input betTb_payoutL" value="2.00">)</td>
                                             <td class="third"><input type="text" id="betTb_chance_bB"  value="49.50"><span class="input_addon">%</span></td>
                                         </tr>
                                         </tbody>
