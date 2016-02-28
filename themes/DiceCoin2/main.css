@@ -60,3 +60,6 @@ div.msgBoxImage{
     height: 85px;
     cursor: default;
 }
+.under_over_num{
+    cursor: pointer;
+}
