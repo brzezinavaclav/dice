@@ -6,6 +6,7 @@ div.msgBox
     font-family:Verdana;
     width: 580px;
     color: #000;
+    background-color: #fff;
 }
 
 div.msgBox .msgClose{
