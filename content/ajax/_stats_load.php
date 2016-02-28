@@ -31,10 +31,9 @@ switch ($_GET['con']) {
       $content.='<table id="bets_st_table">';
       $content.='<thead>';
       $content.='<tr>';
-      $content.='<td class="first">TIME</td>';
-      $content.='<td class="fourth">BET</td>';
-      $content.='<td class="fifth">MULTIPLIER</td>';
-      $content.='<td class="third">TARGET</td>';
+      $content.='<td class="first">Result</td>';
+      $content.='<td class="fourth">MULTIPLIER</td>';
+      $content.='<td class="fifth">BET</td>';
       $content.='<td class="sixth">ROLL</td>';
       $content.='<td class="seventh">PROFIT</td>';
       $content.='</tr>';
@@ -64,10 +63,12 @@ switch ($_GET['con']) {
         $content.='<table>';
         $content.='<tbody>';
         $content.='<tr>';
-        $content.='<td>'.date('H:i:s',strtotime($my_bet['time'])).'</td>';
-        $content.='<td>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
+        $content.='<td>';
+        if ($my_bet['win_lose']==1){ $content.= 'LOSE';}
+        else $content.= 'WIN';
+        $content.='</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
-        $content.='<td>'.$target.'</td>';
+        $content.='<td>'.sprintf("%.8f",$my_bet['bet_amount']).'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td class="'.$profit_class.' right last">'.$plusko.sprintf("%.8f",floor($profit*100000000)/100000000).'</td>';
         $content.='</tr>';
