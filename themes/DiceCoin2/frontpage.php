@@ -200,7 +200,6 @@
                 <li role="presentation" class="tab"><a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">High Rollers</a></li>
             </ul>
 
-            <div id="my_bets" role="tabpanel" class="tab-pane fade">
                 <div class="default-row headingrow">
                     <table>
                         <thead>
@@ -224,7 +223,6 @@
                         </table>
                     </div>
                 </div>
-            </div>
             <div id="all" class="stats">
                 <div id="content">
                 </div>
