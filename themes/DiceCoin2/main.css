@@ -30,3 +30,25 @@ div.msgBoxTitle{
 div.msgBoxImage{
     display: none;
 }
+.block-content table input[type="text"]{
+    width: 80px;
+}
+.select tr td:first-child {
+    width: 33%;
+}
+.select .second, .select .third {
+    width: 33%;
+}
+.select thead td{
+    text-align: center;
+}
+.select tbody td {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+.input_addon{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}

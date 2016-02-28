@@ -59,8 +59,8 @@
                                         <tbody>
                                         <tr>
                                             <td onclick="javascript:inverse_bB();">49.50</td>
-                                            <td class="second"><input type="text" id="betTb_multiplier_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="2.00"><span class="mini">x</span></td>
-                                            <td class="third"><input type="text" id="betTb_chance_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="49.50"><span class="mini">%</span></td>
+                                            <td class="second"><input type="text" id="betTb_multiplier_bB"  value="2.00"><span class="input_addon">X</span></td>
+                                            <td class="third"><input type="text" id="betTb_chance_bB"  value="49.50"><span class="input_addon">%</span></td>
                                         </tr>
                                         </tbody>
                                     </table>
