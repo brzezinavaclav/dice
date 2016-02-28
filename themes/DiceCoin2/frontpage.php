@@ -194,18 +194,16 @@
             </div>
         </div>
 
-        <div class="data" id="tab_bets" role="tabpanel">
             <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="tab active"><a href="#recent_bets" aria-controls="recent_bets" role="tab" data-toggle="tab">Recent bets</a></li>
-                <li role="presentation" class="tab"><a href="#my_bets" aria-controls="my_bets" role="tab" data-toggle="tab">My bets</a></li>
+                <li role="presentation" class="tab active"><a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">All bets</a></li>
+                <li role="presentation" class="tab"><a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">My bets</a></li>
+                <li role="presentation" class="tab"><a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">High Rollers</a></li>
             </ul>
             <div class="stats">
                 <div id="content">
-                    
+
                 </div>
             </div>
-        </div>
-
 
 
         </div>
