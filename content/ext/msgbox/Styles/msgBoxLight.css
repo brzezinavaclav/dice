@@ -82,6 +82,9 @@ div.msgBoxContent p
 div.msgBoxContent b{
     color: #444;
 }
+div.msgBoxContent .dp_addr b{
+    color: #c7254e;
+}
 
 div.msgBoxContent span 
 {
