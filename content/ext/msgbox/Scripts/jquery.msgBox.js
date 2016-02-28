@@ -138,7 +138,7 @@ function msg (options) {
     var windowHeight = $(window).height();
     var windowWidth = $(window).width();
 
-    var top = windowHeight / 2 - height / 2;
+    var top = 100;
     var left = windowWidth / 2 - width / 2;
 
     show();
@@ -147,6 +147,8 @@ function msg (options) {
         if (isShown) {
             return;
         }
+        divMsgBox.css({ opacity: 0, top: top - 50, left: left });
+        divMsgBox.css("background-image", "url('"+msgBoxImagePath+"msgBoxBackGround.png')");
         divMsgBoxBackGround.css({ opacity: options.opacity });
         options.beforeShow();
         divMsgBoxBackGround.css({ "width": $(document).width(), "height": getDocHeight() });
