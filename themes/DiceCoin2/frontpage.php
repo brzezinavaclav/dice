@@ -85,47 +85,47 @@
                                 <form action="#" id="auto_form">
                                     <div class="auto-play-block">
                                         <div class="row">
-                                            <div style="width: 145px; float: left;">
-                                                <b>Operate</b>
-                                            <div>
-                                                <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
-                                                <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
-                                            </div>
-                                            <div>
-                                                <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
-                                                <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label><br>
-                                                <input class="input" id="bt_rolls_bB" value="100" type="text" style="margin-top: 10px;">
-                                            </div>
-                                            </div>
-                                            <div style="width: 145px; float: left;">
-                                                <b>On loss</b>
-                                            <div>
-                                                <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
-                                                <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
-                                            </div>
-                                            <div>
-                                                <input id="bB_loss_increase" class="bB_checkbox" type="checkbox" checked="checked">
-                                                <label for="bB_loss_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
-                                                <input class="input" type="text" id="bB_loss_increase_by" value="0.00" style="margin-top: 10px;">
-                                            </div>
-                                            </div>
-                                            <div style="width: 140px; float: left;">
-                                                <p>On win</p>
-                                            <div>
-                                                <input class="input" id="bB_win_return" type="checkbox" checked="checked">
-                                                <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
-                                            </div>
-                                            <div>
-                                                <input id="bB_win_increase" type="checkbox">
-                                                <label for="bB_win_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
-                                                <input class="input" type="text" id="bB_win_increase_by" value="0.00" style="margin-top: 10px;">
-                                            </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
                                             <input class="input" id="bt_wager_bB" placeholder="Base bet" type="text">
                                             <input class="input" id="bB_max_loss_val" placeholder="Max loss" type="text">
                                             <input class="input" id="bB_max_win_val" placeholder="Max Profit" type="text">
+                                        </div>
+                                        <div class="row">
+                                            <div style="width: 145px; float: left;">
+                                                <p>Operate</p>
+                                                <div>
+                                                    <input id="bB_operate_rolls" class="bB_checkbox" type="checkbox" checked="checked">
+                                                    <label for="bB_operate_rolls" class="bB_label"><small>Rolls</small></label>
+                                                </div>
+                                                <div>
+                                                    <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
+                                                    <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label><br>
+                                                    <input class="input" id="bt_rolls_bB" value="100" type="text" style="margin-top: 10px;">
+                                                </div>
+                                            </div>
+                                            <div style="width: 145px; float: left;">
+                                                <p>On loss</p>
+                                                <div>
+                                                    <input class="input" id="bB_loss_return" class="bB_checkbox" type="checkbox">
+                                                    <label for="bB_loss_return" class="bB_label"><small>Return to Base</small></label>
+                                                </div>
+                                                <div>
+                                                    <input id="bB_loss_increase" class="bB_checkbox" type="checkbox" checked="checked">
+                                                    <label for="bB_loss_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
+                                                    <input class="input" type="text" id="bB_loss_increase_by" value="0.00" style="margin-top: 10px;">
+                                                </div>
+                                            </div>
+                                            <div style="width: 140px; float: left;">
+                                                <p>On win</p>
+                                                <div>
+                                                    <input class="input" id="bB_win_return" type="checkbox" checked="checked">
+                                                    <label for="bB_win_return" class="bB_label"><small>Return to Base</small></label>
+                                                </div>
+                                                <div>
+                                                    <input id="bB_win_increase" type="checkbox">
+                                                    <label for="bB_win_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
+                                                    <input class="input" type="text" id="bB_win_increase_by" value="0.00" style="margin-top: 10px;">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <button id="auto_start" type="submit" class="button roll-dice" onclick="ga('send', 'event', 'Bet', 'click', 'Auto-bet placed', 1)"><span>Start</span> <i class="fa fa-spin fa-spinner" style="display: none"></i></button>
