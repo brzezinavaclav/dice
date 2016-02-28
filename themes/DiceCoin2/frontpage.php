@@ -46,18 +46,24 @@
                 <div class="total-info">
                     <div class="game-info">
                         <div class="tab-content">
-                            <div id="under_over_bB" class="betTbL betTbL_bB" onclick="javascript:inverse_bB();">
-                                <span id="under_over_txt_bB" class="under_over_txt under_over_txt_bB">ROLL UNDER TO WIN</span><br>
-                                <span id="under_over_num_bB" class="under_over_num under_over_num_bB">49.50</span>
-                            </div>
-                            <div class="betTbC">
-                                <small><small><b>MULTIPLIER</b></small></small><br>
-                                <input type="text" id="betTb_multiplier_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="2.00"><input type="text" id="betTb_multiplier_Rp_bB" class="bt_input top3 betTb_input betTb_payoutR lessHeight" readonly="readonly" onclick="javascript:$('#betTb_multiplier_bB').focus();" value="x">
-                            </div>
-                            <div class="betTbR">
-                                <small><small><b>WIN CHANCE</b></small></small><br>
-                                <input type="text" id="betTb_chance_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="49.50"><input type="text" id="betTb_chance_Rp_bB" class="bt_input top3 betTb_input betTb_payoutR lessHeight" readonly="readonly" onclick="javascript:$('#betTb_chance_bB').focus();" value="%">
-                            </div>
+                            <div class="select info-block">
+                                <div class="block-content value">
+                                    <table>
+                                        <thead>
+                                        <tr>
+                                            <td>Roll under</td>
+                                            <td class="second">Multiplier</td>
+                                            <td class="third">Win chance</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td onclick="javascript:inverse_bB();">49.50</td>
+                                            <td class="second"><input type="text" id="betTb_multiplier_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="2.00"><span class="mini">x</span></td>
+                                            <td class="third"><input type="text" id="betTb_chance_bB" class="bt_input top3 betTb_input betTb_payoutL lessHeight" value="49.50"><span class="mini">%</span></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
                             <div role="tabpanel" class="tab-pane active" id="manual">
                                     <div class="play-block">
                                         <input  id="bt_wager" class="input"  placeholder="Input Bet" required="" autofocus="" type="text"  value="0.00000000">
