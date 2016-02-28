@@ -150,10 +150,10 @@
                             </div>
                             <div class="row">
                                 <div class="col-xs-4">
-                                    <div class="label">Password:<?php if ($player['password']!='') echo 'Yes'; else echo 'No'; ?></div>
+                                    <div class="label">Password:</div>
                                 </div>
                                 <div class="col-xs-8">
-                                    <span id="password">-</span>
+                                    <span id="password"><?php if ($player['password']!='') echo 'Yes'; else echo 'No'; ?></span>
                                 </div>
                             </div>
                             <div class="row">

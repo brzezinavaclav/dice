@@ -44,9 +44,9 @@ switch ($_GET['con']) {
       $suda=0;
       while ($my_bet=mysql_fetch_array($my_bets)) {
         $content.=($suda==0)?'<tr>':'<tr class="suda">';
-        
+
         $username=mysql_fetch_array(mysql_query("SELECT `alias` FROM `players` WHERE `id`=$my_bet[player] LIMIT 1"));
-        
+
         $chance['under']=floor((1/($my_bet['multiplier']/100)*((100-$settings['house_edge'])/100))*100)/100;
         $chance['over']=100-$chance['under'];
 
@@ -79,6 +79,7 @@ switch ($_GET['con']) {
         $content.='</div>';
         $suda=($suda==0)?1:0;
       }
+
     }
   break;
   case 'all_bets':
