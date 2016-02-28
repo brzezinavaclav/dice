@@ -193,29 +193,6 @@
                 </div>
             </div>
         </div>
-        <div class="default-row headingrow">
-            <table>
-                <thead>
-                <tr>
-                    <td class="first">Result</td>
-                    <td class="fourth">Payout</td>
-                    <td class="fifth">Game</td>
-                    <td class="third">Chance</td>
-                    <td class="sixth">Bet</td>
-                    <td class="seventh">Profit</td>
-                </tr>
-                </thead>
-            </table>
-        </div>
-        <div id="result" class="results">
-            <div style="" class="default-row win">
-                <table>
-                    <tbody>
-                    <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.00009999</td><td class="color seventh"><i class="fa fa-btc"></i>0.00000999</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
         <div class="data downer" id="tab_bets" role="tabpanel">
             <ul class="nav nav-tabs stats_switcher" role="tablist">
                 <li role="presentation" class="tab active"><a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">All bets</a></li>
@@ -223,6 +200,31 @@
                 <li role="presentation" class="tab"><a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">High Rollers</a></li>
             </ul>
 
+            <div id="my_bets" role="tabpanel" class="tab-pane fade">
+                <div class="default-row headingrow">
+                    <table>
+                        <thead>
+                        <tr>
+                            <td class="first">Result</td>
+                            <td class="fourth">Payout</td>
+                            <td class="fifth">Game</td>
+                            <td class="third">Chance</td>
+                            <td class="sixth">Bet</td>
+                            <td class="seventh">Profit</td>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div id="result" class="results">
+                    <div style="" class="default-row win">
+                        <table>
+                            <tbody>
+                            <tr><td class="first color status">WIN</td><td class="fourth"><a href="#">1.1x</a></td><td class="fifth">8&nbsp;188 &lt; 9&nbsp;000</td><td class="third">90%</td><td class="sixth"><i class="fa fa-btc"></i>0.00009999</td><td class="color seventh"><i class="fa fa-btc"></i>0.00000999</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
             <div id="all" class="stats">
                 <div id="content">
                 </div>
