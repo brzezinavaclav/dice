@@ -194,10 +194,10 @@
             </div>
         </div>
         <div class="data downer" id="tab_bets" role="tabpanel">
-            <ul id="content" class="stats_switcher" role="tablist">
-                <li><a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">All bets</a></li>
-                <li><a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">My bets</a></li>
-                <li><a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">High Rollers</a></li>
+            <ul id="content" class="nav nav-tabs stats_switcher" role="tablist">
+                <li role="presentation"><a href="#" onclick="javascript:_stats_content('all_bets');return false;" id="_st_all_bets">All bets</a></li>
+                <li role="presentation"><a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">My bets</a></li>
+                <li role="presentation"><a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">High Rollers</a></li>
             </ul>
 
             <div class="tabs tab-content">
