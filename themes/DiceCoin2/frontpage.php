@@ -99,8 +99,8 @@
                                                 <div>
                                                     <input id="bB_operate_secs" class="bB_checkbox" type="checkbox">
                                                     <label for="bB_operate_secs" class="bB_label"><small>Seconds</small></label><br>
-                                                    <input class="input" id="bt_rolls_bB" value="100" type="text" style="margin-top: 10px;">
                                                 </div>
+                                                <input class="input" id="bt_rolls_bB" value="100" type="text" style="margin-top: 10px;">
                                             </div>
                                             <div style="width: 145px; float: left;">
                                                 <p>On loss</p>
@@ -111,8 +111,8 @@
                                                 <div>
                                                     <input id="bB_loss_increase" class="bB_checkbox" type="checkbox" checked="checked">
                                                     <label for="bB_loss_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
-                                                    <input class="input" type="text" id="bB_loss_increase_by" value="0.00" style="margin-top: 10px;">
                                                 </div>
+                                                <input class="input" type="text" id="bB_loss_increase_by" value="0.00" style="margin-top: 10px;">
                                             </div>
                                             <div style="width: 140px; float: left;">
                                                 <p>On win</p>
@@ -123,8 +123,8 @@
                                                 <div>
                                                     <input id="bB_win_increase" type="checkbox">
                                                     <label for="bB_win_increase" class="bB_label"><small>Increase Bet by:</small></label><br>
-                                                    <input class="input" type="text" id="bB_win_increase_by" value="0.00" style="margin-top: 10px;">
                                                 </div>
+                                                <input class="input" type="text" id="bB_win_increase_by" value="0.00" style="margin-top: 10px;">
                                             </div>
                                         </div>
                                     </div>
