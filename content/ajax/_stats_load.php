@@ -63,10 +63,7 @@ switch ($_GET['con']) {
         $content.='<table>';
         $content.='<tbody>';
         $content.='<tr>';
-        $content.='<td class="color status">';
-        if ($my_bet['win_lose']==1){ $content.= 'WIN';}
-        else $content.= 'LOSE';
-        $content.='</td>';
+        $content.= '<td class="color status">'. $profit_class .'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td>'.$target.'</td>';
@@ -124,10 +121,7 @@ switch ($_GET['con']) {
         $content.='<table>';
         $content.='<tbody>';
         $content.='<tr>';
-        $content.='<td class="color status">';
-        if ($my_bet['win_lose']==1){ $content.= 'WIN';}
-        else $content.= 'LOSE';
-        $content.='</td>';
+        $content.= '<td class="color status">'. $profit_class .'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['multiplier']).'</td>';
         $content.='<td>'.sprintf("%.2f",$my_bet['result']).'</td>';
         $content.='<td>'.$target.'</td>';
