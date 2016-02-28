@@ -51,7 +51,7 @@
                                     <table>
                                         <thead>
                                         <tr>
-                                            <td>Roll under</td>
+                                            <td><span id="under_over_txt_bB">Roll under</span></td>
                                             <td class="second">Multiplier</td>
                                             <td class="third">Win chance</td>
                                         </tr>
