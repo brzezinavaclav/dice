@@ -200,9 +200,9 @@
                 <li role="presentation" class="tab"><a href="#" onclick="javascript:_stats_content('my_bets');return false;" id="_st_my_bets">My bets</a></li>
                 <li role="presentation" class="tab"><a href="#" onclick="javascript:_stats_content('high_rollers');return false;" id="_st_high_rollers">High Rollers</a></li>
             </ul>
-            <div class="stats">
-                <div id="content">
 
+            <div id="all" class="stats">
+                <div id="content">
                 </div>
             </div>
         </div>
