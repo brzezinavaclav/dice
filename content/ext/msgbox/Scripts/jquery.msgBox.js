@@ -139,7 +139,7 @@ function msg (options) {
     var windowWidth = $(window).width();
 
     var top = 100;
-    var left = windowWidth / 2 - width / 2;
+    var left = windowWidth / 2 - width / 2 -30;
 
     show();
 
