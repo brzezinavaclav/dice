@@ -158,7 +158,7 @@ switch ($_GET['con']) {
         $content.='<p>You can claim the '.$settings['currency'].' bonus now:</p>';
         $content.='<p><big><b>'.sprintf("%.8f",$settings['giveaway_amount']).'</b> '.$settings['currency_sign'].'</big></p>';
         $content.='<br><img src="./content/captcha/genImage.php" style="position: relative; top: 4px;" /><input type="text" id="captchatext" style="padding: 4px; text-transform: uppercase;" placeholder="Captcha">
-<div class="msgBoxButtons"><a onclick="javascript:claim($(\'#captchatext\').val());return false;" style="padding: 4px;" class="msgButton">Claim</a></div>';      }
+<div class="msgBoxButtons"><input type="button" onclick="javascript:claim($(\'#captchatext\').val());return false;" style="padding: 4px;" value="Claim" class="msgButton" id="msgClaim"></div>';      }
     }
   break;
   case 'stats':

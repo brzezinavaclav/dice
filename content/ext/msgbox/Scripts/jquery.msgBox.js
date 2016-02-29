@@ -226,6 +226,9 @@ function msg (options) {
     $('#msgClose').click(function (e) {
         hide();
     });
+    $('#msgClaim').click(function (e) {
+        hide();
+    });
     _hideCurrent=function() {
       hide();
     }
