@@ -442,7 +442,7 @@ function faucet(content) {
                 $("#content.stats_switcher a.current").removeClass('current');
                 $("#content.stats_switcher a#_st_"+con).addClass('current');
             }
-            elseif(con=='giveaway'){
+            else if(con=='giveaway'){
                 faucet(data['content'])
             }
         }
