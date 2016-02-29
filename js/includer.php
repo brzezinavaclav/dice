@@ -335,10 +335,10 @@ d+"px").css("background-color",a.isDark(e,i)?h.foreground:h.background).appendTo
       });
       return false;    
     }
-function faucet() {
+function faucet(content) {
     $.msgBox({
         title:"Receive a free amount to play with!",
-        content:"<p>0.00000500 BTC</p>",
+        content:content,
         type:"info",
         opacity:0.8,
 
@@ -437,9 +437,14 @@ function faucet() {
         'url': './content/ajax/_stats_load.php?con='+con+'&_unique=<?php echo $unique; ?>',
         'dataType': "json",
         'success': function(data) {
-          $("#all.stats #content").html(data['content']);
-          $("#content.stats_switcher a.current").removeClass('current');
-          $("#content.stats_switcher a#_st_"+con).addClass('current');          
+            if(con!='giveaway' && con!='chat'){
+                $("#all.stats #content").html(data['content']);
+                $("#content.stats_switcher a.current").removeClass('current');
+                $("#content.stats_switcher a#_st_"+con).addClass('current');
+            }
+            elseif(con=='giveaway'){
+                faucet(data['content'])
+            }
         }
       });
       if (con!='giveaway' && con!='chat' && con!='stats') timeout_=setTimeout("tm_interval_content_('"+con+"')",1000);
