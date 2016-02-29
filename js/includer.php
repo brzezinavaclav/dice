@@ -340,18 +340,7 @@ function faucet(content) {
         title:"Receive a free amount to play with!",
         content:content,
         type:"info",
-        opacity:0.8,
-        beforeShow: function(){
-            if (isShown) {
-
-                options.beforeClose();
-                divMsgBox.animate({ opacity: 0, "top": top - 50, "left": left }, 200);
-                divMsgBoxBackGround.fadeOut(300);
-                setTimeout(function () { divMsgBox.remove(); divMsgBoxBackGround.remove(); }, 300);
-                setTimeout(options.afterClose, 300);
-                isShown = false;
-            }
-        }
+        opacity:0.8
     });
     return false;
 }
