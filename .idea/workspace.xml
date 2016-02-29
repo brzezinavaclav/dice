@@ -49,26 +49,27 @@
       <file leaf-file-name="_stats_load.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/ajax/_stats_load.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6167472">
-              <caret line="159" column="84" selection-start-line="159" selection-start-column="84" selection-end-line="159" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.7536232">
+              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
               <folding>
-                <marker date="1456736387256" expanded="true" signature="373:403" placeholder="SELECT * FRO..." />
-                <marker date="1456736387256" expanded="true" signature="528:604" placeholder="SELECT `id` ..." />
-                <marker date="1456736387256" expanded="true" signature="663:736" placeholder="SELECT * FRO..." />
-                <marker date="1456736387256" expanded="true" signature="772:849" placeholder="SELECT * FRO..." />
-                <marker date="1456736387256" expanded="true" signature="1598:1662" placeholder="SELECT `alia..." />
-                <marker date="1456736387256" expanded="true" signature="3057:3129" placeholder="SELECT * FRO..." />
-                <marker date="1456736387256" expanded="true" signature="3878:3940" placeholder="SELECT `id` ..." />
-                <marker date="1456736387256" expanded="true" signature="3999:4064" placeholder="SELECT `alia..." />
-                <marker date="1456736387256" expanded="true" signature="5565:5606" placeholder="SELECT * FRO..." />
-                <marker date="1456736387256" expanded="true" signature="6238:6314" placeholder="SELECT `id` ..." />
-                <marker date="1456736387256" expanded="true" signature="6375:6448" placeholder="SELECT * FRO..." />
-                <marker date="1456736387256" expanded="true" signature="6960:7000" placeholder="..." />
-                <marker date="1456736387256" expanded="true" signature="7297:7373" placeholder="SELECT `id` ..." />
-                <marker date="1456736387256" expanded="true" signature="7432:7505" placeholder="SELECT * FRO..." />
-                <marker date="1456736387256" expanded="true" signature="9628:9773" placeholder="SELECT *,(`b..." />
-                <marker date="1456736387256" expanded="true" signature="10522:10584" placeholder="SELECT `id` ..." />
-                <marker date="1456736387256" expanded="true" signature="10643:10708" placeholder="SELECT `alia..." />
+                <marker date="1456736525284" expanded="true" signature="373:403" placeholder="SELECT * FRO..." />
+                <marker date="1456736525284" expanded="true" signature="528:604" placeholder="SELECT `id` ..." />
+                <marker date="1456736525284" expanded="true" signature="663:736" placeholder="SELECT * FRO..." />
+                <marker date="1456736525284" expanded="true" signature="772:849" placeholder="SELECT * FRO..." />
+                <marker date="1456736525284" expanded="true" signature="1598:1662" placeholder="SELECT `alia..." />
+                <marker date="1456736525284" expanded="true" signature="3057:3129" placeholder="SELECT * FRO..." />
+                <marker date="1456736525284" expanded="true" signature="3878:3940" placeholder="SELECT `id` ..." />
+                <marker date="1456736525284" expanded="true" signature="3999:4064" placeholder="SELECT `alia..." />
+                <marker date="1456736525284" expanded="true" signature="5565:5606" placeholder="SELECT * FRO..." />
+                <marker date="1456736525284" expanded="true" signature="6238:6314" placeholder="SELECT `id` ..." />
+                <marker date="1456736525284" expanded="true" signature="6375:6448" placeholder="SELECT * FRO..." />
+                <marker date="1456736525284" expanded="true" signature="6944:6960" placeholder="..." />
+                <marker date="1456736525284" expanded="true" signature="7012:7038" placeholder="..." />
+                <marker date="1456736525284" expanded="true" signature="7360:7436" placeholder="SELECT `id` ..." />
+                <marker date="1456736525284" expanded="true" signature="7495:7568" placeholder="SELECT * FRO..." />
+                <marker date="1456736525284" expanded="true" signature="9691:9836" placeholder="SELECT *,(`b..." />
+                <marker date="1456736525284" expanded="true" signature="10585:10647" placeholder="SELECT `id` ..." />
+                <marker date="1456736525284" expanded="true" signature="10706:10771" placeholder="SELECT `alia..." />
               </folding>
             </state>
           </provider>
@@ -484,23 +485,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="160" column="142" selection-start-line="160" selection-start-column="142" selection-end-line="160" selection-end-column="142" />
           <folding>
-            <marker date="1456736387256" expanded="true" signature="373:403" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="528:604" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="663:736" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="772:849" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="1598:1662" placeholder="SELECT `alia..." />
-            <marker date="1456736387256" expanded="true" signature="3057:3129" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="3878:3940" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="3999:4064" placeholder="SELECT `alia..." />
-            <marker date="1456736387256" expanded="true" signature="5565:5606" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="6238:6314" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="6375:6448" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="6960:7000" placeholder="..." />
-            <marker date="1456736387256" expanded="true" signature="7297:7373" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="7432:7505" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="9628:9773" placeholder="SELECT *,(`b..." />
-            <marker date="1456736387256" expanded="true" signature="10522:10584" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="10643:10708" placeholder="SELECT `alia..." />
+            <marker date="1456736525284" expanded="true" signature="373:403" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="528:604" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="663:736" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="772:849" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="1598:1662" placeholder="SELECT `alia..." />
+            <marker date="1456736525284" expanded="true" signature="3057:3129" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="3878:3940" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="3999:4064" placeholder="SELECT `alia..." />
+            <marker date="1456736525284" expanded="true" signature="5565:5606" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="6238:6314" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="6375:6448" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="6944:6960" placeholder="..." />
+            <marker date="1456736525284" expanded="true" signature="7012:7038" placeholder="..." />
+            <marker date="1456736525284" expanded="true" signature="7360:7436" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="7495:7568" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="9691:9836" placeholder="SELECT *,(`b..." />
+            <marker date="1456736525284" expanded="true" signature="10585:10647" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="10706:10771" placeholder="SELECT `alia..." />
           </folding>
         </state>
       </provider>
@@ -583,26 +585,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/ajax/_stats_load.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6167472">
-          <caret line="159" column="84" selection-start-line="159" selection-start-column="84" selection-end-line="159" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.7536232">
+          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
           <folding>
-            <marker date="1456736387256" expanded="true" signature="373:403" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="528:604" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="663:736" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="772:849" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="1598:1662" placeholder="SELECT `alia..." />
-            <marker date="1456736387256" expanded="true" signature="3057:3129" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="3878:3940" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="3999:4064" placeholder="SELECT `alia..." />
-            <marker date="1456736387256" expanded="true" signature="5565:5606" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="6238:6314" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="6375:6448" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="6960:7000" placeholder="..." />
-            <marker date="1456736387256" expanded="true" signature="7297:7373" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="7432:7505" placeholder="SELECT * FRO..." />
-            <marker date="1456736387256" expanded="true" signature="9628:9773" placeholder="SELECT *,(`b..." />
-            <marker date="1456736387256" expanded="true" signature="10522:10584" placeholder="SELECT `id` ..." />
-            <marker date="1456736387256" expanded="true" signature="10643:10708" placeholder="SELECT `alia..." />
+            <marker date="1456736525284" expanded="true" signature="373:403" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="528:604" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="663:736" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="772:849" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="1598:1662" placeholder="SELECT `alia..." />
+            <marker date="1456736525284" expanded="true" signature="3057:3129" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="3878:3940" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="3999:4064" placeholder="SELECT `alia..." />
+            <marker date="1456736525284" expanded="true" signature="5565:5606" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="6238:6314" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="6375:6448" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="6944:6960" placeholder="..." />
+            <marker date="1456736525284" expanded="true" signature="7012:7038" placeholder="..." />
+            <marker date="1456736525284" expanded="true" signature="7360:7436" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="7495:7568" placeholder="SELECT * FRO..." />
+            <marker date="1456736525284" expanded="true" signature="9691:9836" placeholder="SELECT *,(`b..." />
+            <marker date="1456736525284" expanded="true" signature="10585:10647" placeholder="SELECT `id` ..." />
+            <marker date="1456736525284" expanded="true" signature="10706:10771" placeholder="SELECT `alia..." />
           </folding>
         </state>
       </provider>

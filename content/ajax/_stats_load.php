@@ -151,15 +151,18 @@ switch ($_GET['con']) {
     else {
       if (empty($_GET['_unique']) || mysql_num_rows(mysql_query("SELECT `id` FROM `players` WHERE `hash`='".prot($_GET['_unique'])."' LIMIT 1"))==0) exit();
       $player=mysql_fetch_array(mysql_query("SELECT * FROM `players` WHERE `hash`='".prot($_GET['_unique'])."' LIMIT 1"));
+      $content.='<div class="msgBoxContent">';
       if ($player['balance']!=0) {
         $content.='<p>Sorry, your balance must be <b>0</b> to claim the '.$settings['currency'].' bonus.</p>';
       }
       else {
         $content.='<p>You can claim the '.$settings['currency'].' bonus now:</p>';
         $content.='<p><big><b>'.sprintf("%.8f",$settings['giveaway_amount']).'</b> '.$settings['currency_sign'].'</big></p>';
-        $content.='<img src="./content/captcha/genImage.php" style="margin: 15px 0px" /><input type="text" id="captchatext" style="padding: 4px; text-transform: uppercase;" placeholder="Captcha">
+        $content.='<img src="./content/captcha/genImage.php" style="margin: 15px 0px" />
+    <input type="text" id="captchatext" style="text-transform: uppercase;" placeholder="Captcha">
 <div class="msgBoxButtons"><input type="button" onclick="javascript:claim($(\'#captchatext\').val());return false;" value="Claim" class="msgButton" id="msgClaim"></div>';      }
     }
+    $content.= '</div>';
   break;
   case 'stats':
     if (empty($_GET['_unique']) || mysql_num_rows(mysql_query("SELECT `id` FROM `players` WHERE `hash`='".prot($_GET['_unique'])."' LIMIT 1"))==0) exit();
