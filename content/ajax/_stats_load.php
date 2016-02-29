@@ -146,17 +146,17 @@ switch ($_GET['con']) {
   break;
   case 'giveaway':
     if ($settings['giveaway']!=1) {
-      $content.='<br><br><br><i>Giveaway is not supported now.</i>';
+      $content.='<p>Giveaway is not supported now.</p>';
     }
     else {
       if (empty($_GET['_unique']) || mysql_num_rows(mysql_query("SELECT `id` FROM `players` WHERE `hash`='".prot($_GET['_unique'])."' LIMIT 1"))==0) exit();
       $player=mysql_fetch_array(mysql_query("SELECT * FROM `players` WHERE `hash`='".prot($_GET['_unique'])."' LIMIT 1"));
       if ($player['balance']!=0) {
-        $content.='<br><br><br>Sorry, your balance must be <b>0</b> to claim the '.$settings['currency'].' bonus.';
+        $content.='<p>Sorry, your balance must be <b>0</b> to claim the '.$settings['currency'].' bonus.</p>';
       }
       else {
-        $content.='<br><br><br>You can claim the '.$settings['currency'].' bonus now:<br><br>';
-        $content.='<big><big><b>'.sprintf("%.8f",$settings['giveaway_amount']).'</b> '.$settings['currency_sign'].'</big></big><br><br>';
+        $content.='<p>You can claim the '.$settings['currency'].' bonus now:</p>';
+        $content.='<p><big><b>'.sprintf("%.8f",$settings['giveaway_amount']).'</b> '.$settings['currency_sign'].'</big></p>';
         $content.='<table><tr><td valign="top" style="padding: 4px 0;">Enter text from image:</td><td valign="top"><input type="text" id="captchatext" maxlength="7" style="width: 210px; padding: 4px; text-transform: uppercase;"><br><img src="./content/captcha/genImage.php" style="position: relative; top: 4px;"></img></td><td valign="top"><button onclick="javascript:claim($(\'#captchatext\').val());return false;" style="padding: 4px;">Claim</button></td></tr></table>';
       }
     }
