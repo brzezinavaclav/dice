@@ -341,7 +341,7 @@ function faucet(content) {
         content:content,
         type:"info",
         opacity:0.8,
-
+        beforeShow: hide()
     });
     return false;
 }
